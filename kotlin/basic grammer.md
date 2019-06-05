@@ -18,3 +18,8 @@
 * 运算符会以方法的形式来实现 比如 a++  a.inc 所以可以重载运算符
 * 闭区间 a..b [a, b]   开区间 a until b (a, b]   反向闭区间 b downTo a 
 * 重载
+
+####  开发环境
+
+* library 需要单独引入kotlin plugin
+* kotlin可能通过字节码Decompile回至java
