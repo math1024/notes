@@ -19,6 +19,34 @@
 * 闭区间 a..b [a, b]   开区间 a until b (a, b]   反向闭区间 b downTo a 
 * 重载
 
+#### 流程控制
+
+* when代替java中的switch
+* break continue 后可以添加标签直接跳出for
+
+#### 集合
+
+* mutable
+
+#### 权限控制
+
+* internal 同目录下访问，不能跨包访问
+* 次构造器 constructor 必须以：this委托调用
+* 数据类所有参数必须用val、var声明
+
+#### 抽象类、密封类
+
+* seal 
+
+#### 伴生对象、委托
+
+* 属性委托
+
+#### Kotlin与java 相互调用
+
+* JvmField @file:JvmName("Hello")
+* @JvmOverLoaders
+
 ####  开发环境
 
 * library 需要单独引入kotlin plugin
