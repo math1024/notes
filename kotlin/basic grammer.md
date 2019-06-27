@@ -52,7 +52,7 @@
 * JvmField @file:JvmName("Hello")
 * @JvmOverLoaders
 
-####  开发环境及插件
+####  开发环境
 
 * library 需要单独引入kotlin plugin
 * kotlin可能通过字节码Decompile回至java
