@@ -23,6 +23,10 @@
   * Design风格的Button ，继承自MaterialButton
   * FlatButton ：扁平化的按钮，继承自MaterialButton
   * OutlineButton	：带边框的按钮，继承自MaterialButton
+  
+* MaterialApp设置App 整体theme， Scaffold 包含AppBar、bottomNavigationBar，隐藏的侧边栏drawer
+
+  
 
 #### 语法
 
@@ -57,6 +61,8 @@
   * async 异步标识 await只能在async标记的函数中运行 Future 链式调用
 
     https://segmentfault.com/a/1190000014396421
+  
+* 以下划线_ 开头为私有变量，Dart没有public、private、protect关键字
 
 #### 打包集成
 
