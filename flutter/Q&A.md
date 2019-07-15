@@ -4,31 +4,84 @@
 
 #### UI
 
-* StatuflulWidget SatelessWidget
+##### StatuflulWidget SatelessWidget
 
-* primarySwatch 主题颜色 
+##### primarySwatch 主题颜色 
 
-  ```dart
-   return MaterialApp(
-        theme: ThemeData(
-          primarySwatch: Colors.green,
-        ),
-        ......
-      );
-  ```
+```dart
+ return MaterialApp(
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+      ),
+      ......
+    );
+```
 
-* 按钮
+##### Button
 
-  * RaisedButton ：凸起的按钮，其实就是Android中的Material
-  * Design风格的Button ，继承自MaterialButton
-  * FlatButton ：扁平化的按钮，继承自MaterialButton
-  * OutlineButton	：带边框的按钮，继承自MaterialButton
-  
+* RaisedButton ：凸起的按钮，其实就是Android中的Material
+
+* Design风格的Button ，继承自MaterialButton
+* FlatButton ：扁平化的按钮，继承自MaterialButton
+* OutlineButton	：带边框的按钮，继承自MaterialButton
+
+##### MaterialApp Scaffold
+
 * MaterialApp设置App 整体theme， Scaffold 包含AppBar、bottomNavigationBar，隐藏的侧边栏drawer
 
-  
+##### Form
 
-#### 语法
+* Expanded 相当weight =1 在Row 或 Column中生效
+* crossAxisAlignment: CrossAxisAlignment.center,
+* mainAxisAlignment: MainAxisAlignment.spaceEvenly
+
+##### Radio & RadioListTie 
+
+* Radio 需要自行添加文本
+
+*  RadioListTie 有文本
+
+##### ListView
+
+* ListTile 适合固定数量的文本
+* ListView.builder 常用
+* ListView.separated 带分隔线的
+
+##### CheckBox
+
+#####  FittedBox、AspectRatio、ConstrainedBox
+
+* FittedBox 填充方式
+
+* AspectRatio 宽高比
+
+
+
+#### Dart语法
+
+* 所有类型都是对象 继承Object， 未初始化的变量都是null,  数值、布尔值也是如此
+
+* 内嵌表达式
+
+  ```dart
+  var s = 'haha';
+  var s1 = 'this is a uppercased string: ${s.toUpperCase()}';
+  ```
+
+* 没有重载，可选参数{}，可忽略参数[]
+
+* ```dart
+// 要达到可选参数的用法，加上 {}
+  void enableFlags({bool bold, bool hidden}) => print("$bold , $hidden");
+
+  // 可忽略参数在函数定义时用 [] 符号指定
+void enableFlags(bool bold, [bool hidden]) => print("$bold ,$hidden");
+  
+  // 可忽略参数时增加默认值
+  void enableFlags(bool bold, [bool hidden = false]) => print("$bold ,$hidden");
+  ```
+  
+* 没有public private protected 加下划线_即是私有
 
 * extends\implements\with
 
@@ -54,7 +107,9 @@
     b.a();
     ```
 
-    
+* 相比kotlin swift等语言，同样可以用？处理null的判断，还有 ??=  `a??=value`如果a=null 则赋值为value，a??b类似三目运算符`(a != null)? a : b`
+
+* 运算符重载关键字 operate
 
 * await async Future
 
