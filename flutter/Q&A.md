@@ -46,14 +46,24 @@
 * ListTile 适合固定数量的文本
 * ListView.builder 常用
 * ListView.separated 带分隔线的
+* ListView的标准构造函数会将所有item一次性创建，而ListView.builder会创建滚动到屏幕上显示的item
+* CustomScrollView 用来保证列表的滚动方向一致 比如同时嵌套GridView, ListView
 
 ##### CheckBox
 
 #####  FittedBox、AspectRatio、ConstrainedBox
 
 * FittedBox 填充方式
-
 * AspectRatio 宽高比
+
+#### Layout
+
+* column、row 常用的布局，继承自Flex弹性布局
+
+* wrap 自适应宽度的布局
+
+* Flow 灵活的布局，需要自定义布局策略或性能要求较高，注意FlowDelegate的`paintChildren()`方法
+* Stack 类似Android FrameLayout
 
 
 
@@ -118,6 +128,8 @@ void enableFlags(bool bold, [bool hidden]) => print("$bold ,$hidden");
     https://segmentfault.com/a/1190000014396421
   
 * 以下划线_ 开头为私有变量，Dart没有public、private、protect关键字
+
+* **级联运算符“…”，在同一个对象上连续调用多个函数以及访问成员**
 
 #### 打包集成
 
