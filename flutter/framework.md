@@ -10,8 +10,8 @@
 
   3. 视频控制器根据垂直同步信号（VSync）以每秒 60 次的速从帧缓冲区读取帧数据交由显示器完成图像显示
   4. Skia 是CPU向 GPU 提供视图数据的帮手
-
 * 测量 》约束 》 布局 》 绘制 （布局边界）》合成渲染
+* Widget -> Element -> RenderObject - >skia
 
 #### Skia
 
