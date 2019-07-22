@@ -117,7 +117,7 @@ void enableFlags(bool bold, [bool hidden]) => print("$bold ,$hidden");
     b.a();
     ```
 
-* 相比kotlin swift等语言，同样可以用？处理null的判断，还有 ??=  `a??=value`如果a=null 则赋值为value，a??b类似三目运算符`(a != null)? a : b`
+* 相比kotlin swift等语言，同样可以用？处理null的判断，还有??=  `a??=value`如果a=null 则赋值为value，a??b类似三目运算符`(a != null)? a : b`
 
 * 运算符重载关键字 operate
 
@@ -130,6 +130,8 @@ void enableFlags(bool bold, [bool hidden]) => print("$bold ,$hidden");
 * 以下划线_ 开头为私有变量，Dart没有public、private、protect关键字
 
 * **级联运算符“…”，在同一个对象上连续调用多个函数以及访问成员**
+
+* 线程模型，Dart单线程模型？
 
 #### 打包集成
 

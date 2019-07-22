@@ -12,7 +12,13 @@
   4. Skia 是CPU向 GPU 提供视图数据的帮手
 * 测量 》约束 》 布局 》 绘制 （布局边界）》合成渲染
 * Widget -> Element -> RenderObject - >skia
+* 约束沿着树向下传递，尺寸向上传递
+* 与React相似，声明式的视图开发，而android、ios、js则是命令式视图开发，前者整体输出、后者精细控制
+  * 尽量flutter可以在Element层减少真实渲染视图的修改，但widgte对象的实例创建销毁是不可避免的
 
 #### Skia
 
 * Skia 是跨平台的，因此它作为 Flutter iOS 渲染引擎被嵌入到 Flutter 的 iOS SDK 中，替代了 iOS 闭源Core Graphics/Core Animation/Core Text,  所以ios的包要大一些
+
+#### 生命周期
+
