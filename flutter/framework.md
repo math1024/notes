@@ -22,3 +22,18 @@
 
 #### 生命周期
 
+* 创建视图（插入视图树） -》更新（更新视图树） -》销毁（从视图树中移除）
+
+  * 创建：构造方法(1次) -> initState(1次) -> didChangeDependencies -> build，随后完成页面渲染
+  * 更新：3 个方法触发：setState、didChangeDependencies（locale change）、didUpdateWidget（hot load）
+  * 销毁：系统会调用 deactivate 和 dispose (1次)
+
+* 应用生命周期 WidgetsBindingObserver
+
+  * resumed：可见的，并能响应用户的输入。
+  *  inactive：处在不活动状态，无法处理用户响应。 
+  * paused：不可见并不能响应用户的输入，但是在后台继续活动中
+
+  iOS 开发中，我们可以通过 dispatch_async(dispatch_get_main_queue(),^{…}) 方法，让操作在下一个 RunLoop 执行；Android 开发中，我们可以通过 View.post()来保证在组件渲染后进行相关操作
+
+  
