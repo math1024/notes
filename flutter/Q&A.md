@@ -17,13 +17,25 @@
     );
 ```
 
+##### Text
+
+* 控制布局的参数(对齐、截断)、控制文本样式的参数style
+* 分段显示TextSpan\ android spannedbuilder\ios NSAttributedString 
+
+##### Image
+
+* image.network\image.assets\image.file
+
+* FadeInImage 提供占位图片 placeholder
+* [CachedNetworkImage](https://pub.dev/packages/cached_network_image/)
+
 ##### Button
 
 * RaisedButton ：凸起的按钮，其实就是Android中的Material
-
 * Design风格的Button ，继承自MaterialButton
 * FlatButton ：扁平化的按钮，继承自MaterialButton
 * OutlineButton	：带边框的按钮，继承自MaterialButton
+* shape属性可以定制样式
 
 ##### MaterialApp Scaffold
 
