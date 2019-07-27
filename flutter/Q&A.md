@@ -55,11 +55,16 @@
 
 ##### ListView
 
+* android listview\recycleView.  ios UItableView
+
 * ListTile 适合固定数量的文本
 * ListView.builder 常用
+  * itemExtent 指定高度或宽度
 * ListView.separated 带分隔线的
+  * separatorBuilder
 * ListView的标准构造函数会将所有item一次性创建，而ListView.builder会创建滚动到屏幕上显示的item
-* CustomScrollView 用来保证列表的滚动方向一致 比如同时嵌套GridView, ListView
+* CustomScrollView 用来保证列表的滚动方向一致 比如同时嵌套GridView, ListView 视差滚动
+* ScrollController\ScrollNotification
 
 ##### CheckBox
 
