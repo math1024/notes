@@ -75,12 +75,18 @@
 
 #### Layout
 
+* [offical layout](https://flutter.dev/docs/development/ui/widgets/layout)
+
 * column、row 常用的布局，继承自Flex弹性布局
-
+  * mainAxisSize: MainAxisSize.min
 * wrap 自适应宽度的布局
-
 * Flow 灵活的布局，需要自定义布局策略或性能要求较高，注意FlowDelegate的`paintChildren()`方法
 * Stack 类似Android FrameLayout
+
+#### CustomPaint Canvas
+
+* shouldRepaint true重绘 
+* RepaintBoundary 绘制隔离
 
 
 
