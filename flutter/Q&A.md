@@ -6,15 +6,22 @@
 
 ##### StatuflulWidget SatelessWidget
 
-##### primarySwatch 主题颜色 
+##### themeData
 
 ```dart
- return MaterialApp(
-      theme: ThemeData(
-        primarySwatch: Colors.green,
-      ),
-      ......
-    );
+MaterialApp(
+  title: 'Flutter Demo',// 标题
+  theme: ThemeData(// 设置主题
+      brightness: Brightness.dark,// 设置明暗模式
+      accentColor: Colors.black,//前景色为黑色
+      primaryColor: Colors.cyan,// 主色调
+      iconTheme:IconThemeData(color: Colors.yellow),// 设置 icon 主题色为黄色
+      textTheme: TextTheme(body1: TextStyle(color: Colors.red))// 设置文本颜色为红色
+  ),
+  home: MyHomePage(title: 'Flutter'),
+);
+
+Theme.of(context).copyWith
 ```
 
 ##### Text
@@ -73,6 +80,14 @@
 * FittedBox 填充方式
 * AspectRatio 宽高比
 
+#####  ExpansionPanel
+
+* 可扩展布局、类似二级菜单
+
+#### Offstage
+
+* 需要控制一个区域显示或者隐藏的时候用，比如loading
+
 #### Layout
 
 * [offical layout](https://flutter.dev/docs/development/ui/widgets/layout)
@@ -84,6 +99,8 @@
 * Stack 类似Android FrameLayout
 
 #### CustomPaint Canvas
+
+* ios/android  drawRect/onDraw
 
 * shouldRepaint true重绘 
 * RepaintBoundary 绘制隔离
@@ -155,6 +172,8 @@ void enableFlags(bool bold, [bool hidden]) => print("$bold ,$hidden");
 * **级联运算符“…”，在同一个对象上连续调用多个函数以及访问成员**
 
 * 线程模型，Dart单线程模型？
+
+* Stream
 
 #### 打包集成
 

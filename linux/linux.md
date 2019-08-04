@@ -59,7 +59,7 @@
   * 信号处理 sigkill\sigaction 自定义处理函数
   * glibc 系统函数api封装 strace 命令追踪
 
-#### 系统初始化
+#### 2 系统初始化
 
 *  寄存器、汇编
   * CPU（运算单元、数据单元、控制单元(指令指针寄存器)）内存
@@ -91,4 +91,22 @@
      *  启用分段, 辅助进程管理
     *  启动分页, 辅助内存管理
   *  grub_command_execute (“boot”, …）启动内核
+
+* 内核初始化
+  * init/main.c  start_kernal() 开始  
+  * init_task 0号进程
+  * trap_init 中断系统
+  * mm_init 内存管理
+  * sched_init 调度
+  * vfs_caches_init()  roofts  文件系统初始化
+  * reset_init
+    * 1号进程 用户态、准备用户寄存器，用户态-系统调用-保存寄存器-内核态执行系统调用-恢复寄存器-返回用户态。ramdisk 是根文件系。
+    * 2号进程 管理内核态进程
+* 系统调用
+  * glibc 系统调用中介  syscalls.list系统调用映射表 make-syscall.sh宏定义 syscall-template.S 调用方式
+  * 32位系统
+  * 64位系统
+  * 系统调用表 sys_call_table
+    * 32位  arch/x86/entry/syscalls/syscall_32.tbl 
+    - 64位  arch/x86/entry/syscalls/syscall_64.tbl
 
