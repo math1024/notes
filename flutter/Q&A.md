@@ -101,11 +101,20 @@ Theme.of(context).copyWith
 #### CustomPaint Canvas
 
 * ios/android  drawRect/onDraw
-
 * shouldRepaint true重绘 
 * RepaintBoundary 绘制隔离
 
+##### Semantics
 
+* 帮助控件 
+
+#### SafeArea
+
+* 处理异形屏
+
+#### InheritedWidget
+
+* widget间共享数据
 
 #### Dart语法
 
@@ -174,6 +183,25 @@ void enableFlags(bool bold, [bool hidden]) => print("$bold ,$hidden");
 * 线程模型，Dart单线程模型？
 
 * Stream
+
+#### 资源管理
+
+* 放在assets目录下，在pubspec.yaml声明即可
+
+* 目录批量指定并不递归，只有在该目录下的文件才可以被包括，
+
+  如果需要指定其子目录，需要单独填写
+
+* 替换应用图标、启动页
+
+  * android/app/src/main/res/mipmap
+  * ios/Runner/Assets.xcassets/AppIcon.appiconset  LaunchImage.imageset
+
+* 优先使用当前像素密度相近的资源，没有资源时由低向高找
+
+#### 路由
+
+
 
 #### 打包集成
 

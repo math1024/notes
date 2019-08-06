@@ -18,6 +18,7 @@
 * 深入理解计算机系统
 * 一个64位操作系统的设计与实现
 *  从实模式到保护模式
+*  《程序员的自我修养-链接、装载和库》
 
 #### 1 系统概述
 
@@ -110,3 +111,7 @@
     * 32位  arch/x86/entry/syscalls/syscall_32.tbl 
     - 64位  arch/x86/entry/syscalls/syscall_64.tbl
 
+#### 进程管理
+
+* 进程从代码到执行
+  * 写代码调用系统进程 -》编译(ELF Executeable and Linkable Format)
