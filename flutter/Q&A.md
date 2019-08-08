@@ -188,6 +188,10 @@ void enableFlags(bool bold, [bool hidden]) => print("$bold ,$hidden");
 
 * 放在assets目录下，在pubspec.yaml声明即可
 
+* pubspec.yaml 包的元数据（比如，包的名称和版本）、运行环境（也就是 Dart SDK 与 Fluter SDK 版本）、外部依赖、内部配置（比如，资源管理）
+
+  * pubspec.yaml 下什么 pubspec.lock 从哪下  .package 下完了放哪
+
 * 目录批量指定并不递归，只有在该目录下的文件才可以被包括，
 
   如果需要指定其子目录，需要单独填写
@@ -198,6 +202,15 @@ void enableFlags(bool bold, [bool hidden]) => print("$bold ,$hidden");
   * ios/Runner/Assets.xcassets/AppIcon.appiconset  LaunchImage.imageset
 
 * 优先使用当前像素密度相近的资源，没有资源时由低向高找
+
+* 复用引用包中的资源
+
+```dart
+Image.asset('assets/placeholder.png', package: 'package4');
+AssetImage('assets/placeholder.png', package: 'package4');
+```
+
+
 
 #### 路由
 
@@ -217,6 +230,10 @@ void enableFlags(bool bold, [bool hidden]) => print("$bold ,$hidden");
 * 文件名小写、下划线连接   eg. app_main.dart
 
 #### Trouble shoot
+
+##### 工程协作
+
+* 固定版本号，避免api不兼容  可以考虑提交pubspec.yaml
 
 ##### 工程导入集成
 

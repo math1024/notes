@@ -111,7 +111,41 @@
     * 32位  arch/x86/entry/syscalls/syscall_32.tbl 
     - 64位  arch/x86/entry/syscalls/syscall_64.tbl
 
-#### 进程管理
+#### 3 进程管理
 
 * 进程从代码到执行
+  
+  * exec 参数 p、v、l、e
+  
   * 写代码调用系统进程 -》编译(ELF Executeable and Linkable Format)
+  
+    -> .o文件（可重定位文件 Relocatable File） -》 .a -》 链接器 -》 可执行文件 --> 动态链接库（Shared Object）
+  
+  * load_elf_binary 加载elf文件  
+  
+  * 内核态祖先2号进程 中括号，用户态祖先1号进程
+  
+  * 工具
+  
+    * readelf 工具用于分析 ELF 的信息，
+    * objdump工具用来显示二进制文件的信息，
+    * hexdump 工具用来查看文件的十六进制编码
+    * nm 工具用来显示关于指定文件中符号的信息
+  
+* 线程
+
+  * 为完成进程建立的一项项具体的开发任务，并行执行
+    * 多个进程会涉及资源占用、变量共享问题
+  * pthread_attr_t声明属性， pthread_attr_init设置属性，PTHREAD_CREATE_JOINABLE表示将来主线程程等待这个线程的结束，并获取退出时的状态。
+  * 每个线程都有自己栈空间，栈空间之间会有隔离段，全局数据区，私有数据
+  * 条件变量与互斥锁
+  
+* 任务管理
+
+  * 任务id  pid 是 process id，tgid 是 thread group ID
+    * 两个id方便展示，也方便下发任务
+    * 信号处理函数默认使用用户态的函数栈。
+  * 任务状态
+    * TASK_INTERRUPTIBLE，可中断的睡眠状态
+    * TASK_UNINTERRUPTIBLE，不可中断的睡眠状态
+    * TASK_KILLABLE，可以终止的新睡眠状态
