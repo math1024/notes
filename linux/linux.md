@@ -149,3 +149,5 @@
     * TASK_INTERRUPTIBLE，可中断的睡眠状态
     * TASK_UNINTERRUPTIBLE，不可中断的睡眠状态
     * TASK_KILLABLE，可以终止的新睡眠状态
+  * 运行信息
+  * 用户函数栈、内核栈

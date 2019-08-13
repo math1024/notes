@@ -84,11 +84,11 @@ Theme.of(context).copyWith
 
 * 可扩展布局、类似二级菜单
 
-#### Offstage
+##### Offstage
 
 * 需要控制一个区域显示或者隐藏的时候用，比如loading
 
-#### Layout
+##### Layout
 
 * [offical layout](https://flutter.dev/docs/development/ui/widgets/layout)
 
@@ -98,7 +98,7 @@ Theme.of(context).copyWith
 * Flow 灵活的布局，需要自定义布局策略或性能要求较高，注意FlowDelegate的`paintChildren()`方法
 * Stack 类似Android FrameLayout
 
-#### CustomPaint Canvas
+##### CustomPaint Canvas
 
 * ios/android  drawRect/onDraw
 * shouldRepaint true重绘 
@@ -112,9 +112,37 @@ Theme.of(context).copyWith
 
 * 处理异形屏
 
-#### InheritedWidget
+#### widget间共享数据
 
-* widget间共享数据
+* InheritedWidget 要和 StatefulWidget 中的 State 配套使用，数据由父控件到子控件
+* Notification 数据子控件到父控件
+* eventbus  发布订阅模式
+
+#### 监听事件
+
+* 原始 listener 
+
+* GestureDetector
+
+* RawGestureDetector 和 GestureFactory
+
+  ```dart
+  class MultipleTapGestureRecognizer extends TapGestureRecognizer {
+    @override
+    void rejectGesture(int pointer) {
+      acceptGesture(pointer);
+    }
+  }
+  ```
+
+* 如果子控件有实现监听事件，父控件同类监听不会收到响应
+* 事件向下传递、响应向上传递
+
+----
+
+
+
+
 
 #### Dart语法
 
@@ -229,11 +257,15 @@ AssetImage('assets/placeholder.png', package: 'package4');
 
 * 文件名小写、下划线连接   eg. app_main.dart
 
+#### 运行调试
+
+* flutter emulator --launch
+
 #### Trouble shoot
 
 ##### 工程协作
 
-* 固定版本号，避免api不兼容  可以考虑提交pubspec.yaml
+* 固定版本号，避免api不兼容  可以考虑提交pubspec.yaml\pubspec.lock
 
 ##### 工程导入集成
 
