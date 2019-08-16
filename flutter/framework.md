@@ -37,3 +37,10 @@
   iOS 开发中，我们可以通过 dispatch_async(dispatch_get_main_queue(),^{…}) 方法，让操作在下一个 RunLoop 执行；Android 开发中，我们可以通过 View.post()来保证在组件渲染后进行相关操作
 
   
+
+#### Channel
+
+* BinaryMessage
+
+
+

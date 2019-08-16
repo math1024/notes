@@ -14,6 +14,22 @@
 * typealias 类型别名
 * 扩展函数  比如String.lastChar
 
+####  字符串
+
+* String.toByteArray
+
+  ```kotlin
+  fun String.toByteArray{
+    charset: Charset = Charsets.UTF_8
+  }:ByteArray
+  
+  val byteArray = "hello".toByteArray(Charsets.UTF_8)
+  print(byteArray.contentToString())
+  print(byteArray.toString(charset))
+  ```
+
+  
+
 #### 关键字
 
 * let 作用域包裹

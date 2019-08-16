@@ -242,7 +242,26 @@ AssetImage('assets/placeholder.png', package: 'package4');
 
 #### 路由
 
+* Route 是页面的抽象 可构造页面名称、参数
 
+  * 基本路由 MaterialPageRoute
+
+  * 命名路由. 模块化基础
+
+    ```左手
+    MaterialApp(
+        ...
+        // 注册
+        routes:{
+          "second_page":(context)=>SecondPage(),
+        },
+        onUnknownRoute: (RouteSettings setting) => MaterialPageRoute（builder: (context) => UnknownPage())
+    );
+    Navigator.pushNamed(context,"second_page", arguments: "Hey");
+    
+    ```
+
+    
 
 #### 打包集成
 

@@ -140,7 +140,7 @@
   * 每个线程都有自己栈空间，栈空间之间会有隔离段，全局数据区，私有数据
   * 条件变量与互斥锁
   
-* 任务管理
+* 任务管理 task_struct
 
   * 任务id  pid 是 process id，tgid 是 thread group ID
     * 两个id方便展示，也方便下发任务
@@ -151,3 +151,28 @@
     * TASK_KILLABLE，可以终止的新睡眠状态
   * 运行信息
   * 用户函数栈、内核栈
+  
+* 调度
+
+  * 针对实时进程（0~99）、普通进程（100~139） 调试策略不同
+
+  * unsigned int policy; 
+
+    ```c
+    #define SCHED_NORMAL		0
+    #define SCHED_FIFO		1
+    #define SCHED_RR		2 时间片轮转
+    #define SCHED_BATCH		3
+    #define SCHED_IDLE		5
+    #define SCHED_DEADLINE		6 距离完成时间最短
+    ```
+
+  * CFS 全称 Completely Fair Scheduling  CFS队列是红黑树 虚拟运行时间最小在左侧
+
+  * chrt -p pid 查看当前策略    chrt -p pid -10
+
+  * 主动调度
+
+    * 第一是选取下一个进程，第二是进行上下文切换。而上下文切换又分用户态进程空间的切换和内核态的切换。
+  
+  * 抢占调试
