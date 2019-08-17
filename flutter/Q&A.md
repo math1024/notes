@@ -112,6 +112,16 @@ Theme.of(context).copyWith
 
 * 处理异形屏
 
+#### 动画
+
+* 三要素
+  *  Animation 动画什么样 规律、只负责动画，不管渲染
+  * AnimationCortroller 周期
+  * Listener 执行回调
+* vsync 不可见时暂停动画
+* AnimatedWidget 与 AnimatedBuilder
+* hero 共享动画
+
 #### widget间共享数据
 
 * InheritedWidget 要和 StatefulWidget 中的 State 配套使用，数据由父控件到子控件
