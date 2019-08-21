@@ -42,5 +42,40 @@
 
 * BinaryMessage
 
+#### 单线程模型
 
+* 单线程和异步不冲突  Future是对异步任务的封装
+* MicroTask高优先级、EventTask （scheduleMicrotask）
+* 事件队列会按照加入事件队列的顺序（即声明顺序），依次取出事件，最后同步执行 Future 的函数体及后续的 then
+  * 如果Future没有事件循环，then会被加入微队列，已保证快速执行
+* await async同步等待，否则then
+
+#### 多线程模型
+
+* isolate  `Isolate.spawn(doSth, "Hi");`
+
+* isolate 回传消息
+
+```dart
+Isolate isolate;
+
+start() async {
+  ReceivePort receivePort= ReceivePort();// 创建管道
+  // 创建并发 Isolate，并传入发送管道
+  isolate = await Isolate.spawn(getMsg, receivePort.sendPort);
+  // 监听管道消息
+  receivePort.listen((data) {
+    print('Data：$data');
+    receivePort.close();// 关闭管道
+    // 杀死并发 Isolate
+    isolate?.kill(priority: Isolate.immediate);
+    isolate = null;
+  });
+}
+// 并发 Isolate 往管道发送一个字符串
+getMsg(sendPort) => sendPort.send("Hello");
+
+```
+
+* 双向通信 compute 函数
 

@@ -222,6 +222,12 @@ void enableFlags(bool bold, [bool hidden]) => print("$bold ,$hidden");
 
 * Stream
 
+* Map
+
+  * HashMap是无序的，这意味着它迭代的顺序是不确定的
+  * LinkedHashMap按key的插入顺序进行迭代
+  * SplayTreeMap按key的排序顺序进行迭代
+
 #### 资源管理
 
 * 放在assets目录下，在pubspec.yaml声明即可
