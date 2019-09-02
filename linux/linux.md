@@ -176,3 +176,14 @@
     * 第一是选取下一个进程，第二是进行上下文切换。而上下文切换又分用户态进程空间的切换和内核态的切换。
   
   * 抢占调试
+  
+  * Fork 进程创建
+  
+    * Copy task struct
+    * wake new process
+  
+  * 线程创建
+  
+    * pstree -apl pid看进程树
+      pstack pid 看栈
+
