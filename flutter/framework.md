@@ -101,7 +101,20 @@ getMsg(sendPort) => sendPort.send("Hello");
 * 混合管理  Flutter工和散入原生工程
   * 打包成aar或pod
 
+#### 混合栈
+
+* 原生单容器单页面
+* Flutter单窗口多页面
+  * FlutterView、FlutterViewController
+* 应尽量避免与原生频繁界面切换、Flutter实例初始化成本高
+  * 目前有FlutterBoost、Flutter共享isolate两种
 
 
 
+##### 状态管理
+
+* 封装数据、存放数据、开放获取方法
+
+* 官方provider `ChangeNotifierProvider.value or MultiProvider`
+* Consumer 保证只刷新需要变更的控件
 
