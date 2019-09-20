@@ -277,16 +277,31 @@ AssetImage('assets/placeholder.png', package: 'package4');
     
     ```
 
-    
+
+#### 横竖屏
+
+* OrientationBuilder，需要针对横竖屏也两套布局
+* MediaQueryData 获取屏幕尺寸
 
 #### 打包集成
 
 * 去除 右上角 debug标识 debugShowCheckedModeBanner: false
 * 四种模式
   * Debug 打开所有断言、debugging信息，flutter run
-  * Release 只能直机运行 flutter run —realease
+  * Release 只能直机运行 flutter run —realease 关闭了所有断言 assert
+    * kReleaseMode
   * Profile 只能真机运行 与Release基本一致 flutter run —profile
   *  Test 桌面运行与Debug基本一致 flutter test
+* 三个阶段
+  - 开发-尽可能提供上下文信息
+  - 测试-覆盖全面，不同配置的切换
+  - 发布-去除测试代码、精简测试信息
+
+* 四个步骤
+  * 分离可配置部分
+  * 不同配置对应不同应用入口
+  * 运行期借用数据共享InheritedWidget将配置应用到对应入口
+  * 打包提供不同环境的测试包
 
 #### 命名规范
 
@@ -295,6 +310,10 @@ AssetImage('assets/placeholder.png', package: 'package4');
 #### 运行调试
 
 * flutter emulator --launch
+
+* debugPrint
+* 布局调试
+  * inspector
 
 #### Trouble shoot
 

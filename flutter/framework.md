@@ -109,12 +109,18 @@ getMsg(sendPort) => sendPort.send("Hello");
 * 应尽量避免与原生频繁界面切换、Flutter实例初始化成本高
   * 目前有FlutterBoost、Flutter共享isolate两种
 
-
-
-##### 状态管理
+#### 状态管理
 
 * 封装数据、存放数据、开放获取方法
-
 * 官方provider `ChangeNotifierProvider.value or MultiProvider`
 * Consumer 保证只刷新需要变更的控件
+
+#### Hot load
+
+* 热重载的流程可以分为扫描工程改动、增量编译、推送更新、代码合并、Widget 重建 5 个步骤：
+  * 刷新指定UI树，而不是整个界面
+* 以下情况hot load 无效
+  * 状态变化、初始化 lessWidget -> fulWidget
+  * 全局变量、静态变量的修改
+  * main方法、initState方法
 
