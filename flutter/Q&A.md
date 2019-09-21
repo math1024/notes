@@ -291,6 +291,8 @@ AssetImage('assets/placeholder.png', package: 'package4');
   * Release 只能直机运行 flutter run —realease 关闭了所有断言 assert
     * kReleaseMode
   * Profile 只能真机运行 与Release基本一致 flutter run —profile
+    * GPU 红色为异常，出现在GPU表示渲染复杂，
+    * UI 性能 出现UI表示代码过于复杂， Flame chart
   *  Test 桌面运行与Debug基本一致 flutter test
 * 三个阶段
   - 开发-尽可能提供上下文信息
@@ -312,8 +314,57 @@ AssetImage('assets/placeholder.png', package: 'package4');
 * flutter emulator --launch
 
 * debugPrint
+
 * 布局调试
+  
+  * Debug Painting
+  
+  ```dart
+  void main() {
+    debugPaintSizeEnabled = true; // 打开 Debug Painting 调试开关
+    runApp(new MyApp());
+  }
+  ```
+  
   * inspector
+
+* checkerboardOffscreenLayers 检查多视图叠加开关，checkerboardRasterCacheImages
+
+  检查缓存的图像开关
+  
+* pubspec.yaml test包mockito包，
+
+  ```dart
+  dev_dependencies:
+    test: 
+    mockito:// 模拟网络
+    flutter_test: 
+      sdk: flutter// UI
+  ```
+
+  极客时间版权所有: https://time.geekbang.org/column/article/140079
+
+  	* 测试用例三部分，定义、执行、验证
+  	* 包装在test内部 test是Flutter提供的测试类
+  	* 多个test可以放同一组group
+
+  ```dart
+  group('name1', () {
+  	test('name2', (){});
+  	test('name3', (){})
+  })
+  ```
+
+  * testWidgets widgetTester
+
+  ```
+  testWidgets('name', (Widgettester tester) async {
+     await test.pumpWidget(MyApp())
+     expect(find.text('0'))
+  })
+  ```
+
+  
 
 #### Trouble shoot
 
