@@ -364,7 +364,39 @@ AssetImage('assets/placeholder.png', package: 'package4');
   })
   ```
 
-  
+* 异常处理
+
+  * 同步异常 try-catch
+
+  * 异步异常 catchError
+
+  * Zone.runZoned 自己管理异常
+
+    ```dart
+    runZoned<Future<Null>>(() async {
+      runApp(MyApp());
+    }, onError: (error, stackTrace) async {
+     //Do sth for error
+    });
+    
+    ```
+
+  * Framework 异常 ErrorWidget.builder
+
+    ```dart
+    FlutterError.onError = (FlutterErrorDetails details) async {
+      Zone.current.handleUncaughtError(details.exception, details.stack);
+    };
+    
+    runZoned<Future<Null>>(() async {
+      runApp(MyApp());
+    }, onError: (error, stackTrace) async {
+     //Do sth for error
+    });
+    
+    ```
+
+    
 
 #### Trouble shoot
 
