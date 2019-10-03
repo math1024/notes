@@ -125,3 +125,15 @@ getMsg(sendPort) => sendPort.send("Hello");
   * 全局变量、静态变量的修改
   * main方法、initState方法
 
+#### 性能指标
+
+* 页面异常率  异常次数/界面打开次数 NavigatorObserver
+* 页面帧率 onReportTimings FPS=60* 实际渲染的帧数 / 本来应该在这个时间内渲染...
+* 页面加载时长 addPostFrameCallback
+
+#### 组件化&平台化
+
+* 独立的组件可单独维护、升级、替换，可以依赖其它组件，只要保持功能不变，对外服务就没有影响
+* 功能单一、抽象、稳定和尽可能不依赖其它模块
+* UI属性、业务属性划分四象限，单向依赖，
+* 平台化注重分层，如遇到跨层调用，可考虑用中间层来联接，如eventbus、provider\，route
