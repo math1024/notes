@@ -137,3 +137,13 @@ getMsg(sendPort) => sendPort.send("Hello");
 * 功能单一、抽象、稳定和尽可能不依赖其它模块
 * UI属性、业务属性划分四象限，单向依赖，
 * 平台化注重分层，如遇到跨层调用，可考虑用中间层来联接，如eventbus、provider\，route
+
+#### 持续集成
+
+* Travis CI install、script 和 deploy
+
+#### 混合开发
+
+* 总体思路：结合持续集成方法，flutter与native工程混合应该是可重复可配置的
+* 将flutter模块嵌入到原生工程，以aa或framework的形式提供给native工程使用
+* 跨技术栈的组件依赖
