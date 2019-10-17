@@ -217,5 +217,9 @@
     * kill、tkill、tgkill、rt_sigqueueinfo
   * 可靠信号(集合)、不可靠信号(链表) 32  用户栈信保存在pt_regs
 
+* 管道
+  * 匿名管道对应内核中一串缓存 、命名管道mkfifo
+  * `int dup2(int oldfd, int newfd);` 管道连接
+
 
 
