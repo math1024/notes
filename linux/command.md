@@ -1,3 +1,5 @@
+[TOC]
+
 ####  os comand
 
 1. 登录: ssh [ -p port 可选 ]name@ip
@@ -27,6 +29,8 @@
    r ：只显示正在运行的进程。 
    u ：以用户为主的格式来显示程序状况。 
    x ：显示所有程序，不以终端机来区分。
+   
+8. ipcs\ipcrm
 
 #### soft command
 
@@ -40,8 +44,9 @@
    * ln -s /usr/local/python3/bin/python3 /usr/bin/python3
    * ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3 
 2. spider
-   * pip3 install requets, selenium,beautifulsoup4,pymongo
-
+   
+* pip3 install requets, selenium,beautifulsoup4,pymongo
+   
 3. mongodb 172.24.243.26 39.104.127.247
 
    * wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-4.0.4.tgz
