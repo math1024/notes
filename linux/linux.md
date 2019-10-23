@@ -222,8 +222,41 @@
   * `int dup2(int oldfd, int newfd);` 管道连接
 
 * 共享内存、信号量
-  * 共享内存的大小由放入的元素决定
+  * 共享内存的大小由放入的元素决定，shmget创建
   * 信号量 `int semget(key_t key, int nsems, int semflg);` nsems 描述个数
     * P申请资源、V释放资源两种操作
   * 使用之前生key，通过key得到唯一id，获取方法 xxxget
 
+#### 6 网络
+
+* Socket非网络协议，属于操作系统
+  * 数据链路、网络、传输在linux内核里，应用层由用户完成，完成两者的通信需要一个系统调用，这个调用就是socket
+  * TCP/UDP->IPv4->ARP
+  * 连接：数据结构状态的协同，状态匹配，符合TCP的规则，可靠：按顺序整理流将期发给应用层， 真正的工作在两端而不在通路
+  
+  ```c++
+  //domain：IP 层协议。AF_INET 表示 IPv4，AF_INET6 表示 IPv6    type：socket 类型。SOCK_STREAM，面向TCP    
+  //SOCK_DGRAM 就是 UDP 面向数据报的，
+  //SOCK_RAW 可以直接操作 IP 层，或者非 TCP 和 UDP 的协议。
+  //protocol 表示的协议，包括 IPPROTO_TCP、IPPTOTO_UDP。
+  int socket(int domain, int type, int protocol);
+  ```
+  
+* 通信 TCP、UDP
+
+  * big-endian 最低位放在最后一个位置为小端，最低位放在第一个位置为大端
+* 内核中完成三次握手
+  * TCP  bind、listener、accept  和 connect
+* UDP bind\sent\recv
+  
+* 网络包发送
+
+  * MSS 最大分片大小
+    * TSO（TCP Segmentation Offload）数据分段 网卡或CPU
+    * 拥塞窗口（cwnd，congestion window）
+    * 接收窗口rwnd （receive window），也叫滑动窗口
+  * 为减少内存拷贝的代价，有的网络设备支持分散聚合（Scatter/Gather）I/O
+  * VFS层、Socket层、Sock层、TCP层、IP层、MAC层
+  * FIB全称是 Forwarding Information Base，转发信息表。即路由表
+
+* 网络包接收
