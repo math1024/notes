@@ -245,12 +245,16 @@
 * 通信 TCP、UDP
 
   * big-endian 最低位放在最后一个位置为小端，最低位放在第一个位置为大端
+  
 * 内核中完成三次握手
+  
   * TCP  bind、listener、accept  和 connect
+  
 * UDP bind\sent\recv
   
 * 网络包发送
 
+  * 应用层 -》 网卡驱动
   * MSS 最大分片大小
     * TSO（TCP Segmentation Offload）数据分段 网卡或CPU
     * 拥塞窗口（cwnd，congestion window）
@@ -260,3 +264,11 @@
   * FIB全称是 Forwarding Information Base，转发信息表。即路由表
 
 * 网络包接收
+
+  * 网卡驱动 -》应用层
+
+  * NAPI 先中断再轮询，如果有就一直处理
+
+  * DMA ->Ring Buffer  ixgr_intr NET_RX_SOFTIRQ  -> netIf_recive_skb
+
+    -> ip_rcv ->ip_local_deliver -> tcp_v4_rcv
