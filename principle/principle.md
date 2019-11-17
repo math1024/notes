@@ -14,6 +14,11 @@
 * 缺乏经验或训练造成的缺点可以被修正，而能力不足却不可以
 * A weakness that is due to a lack of experience or training can be fixed, while a weakness that is due to a lack of ability can’t be
 
+##### 9.8a 对人进行判断时，不必达到“没有一丝疑问”的地步
+
+* 追求完美会浪费时间，阻碍进展
+* **Perfect understanding isn’t possible**; trying to get to it wastes time and stalls progress
+
 #### 组织
 
 
