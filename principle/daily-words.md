@@ -8,5 +8,5 @@
 * be practical and realistic 实事求是
 * stall  熄火\抛锚\使...熄火
   * quit or stop stalling! 不要拖延了！
-
 * mutually  互相的
+* ongoing 持续的

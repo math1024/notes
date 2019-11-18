@@ -19,6 +19,10 @@
 * 追求完美会浪费时间，阻碍进展
 * **Perfect understanding isn’t possible**; trying to get to it wastes time and stalls progress
 
+##### 9.8d 要像评估应聘者一样严格评估员工
+
+* frank and ongoing evaluations are so important.
+
 #### 组织
 
 
