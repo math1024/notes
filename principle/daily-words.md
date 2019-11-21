@@ -10,3 +10,7 @@
   * quit or stop stalling! 不要拖延了！
 * mutually  互相的
 * ongoing 持续的
+* over extended periods of time.较长时间
+  * it is generally best directed by professionals over extended periods of time
+* making a serious mistake
+* lose their boxes (they get fired from their role)

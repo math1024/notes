@@ -4,6 +4,8 @@
 
 #### 个人
 
+#### 组织
+
 ##### 9.6j 帮助人们更好应对由挖掘缺点而带来的痛苦
 
 * 首先，让他们看到自己的失败，其清晰程度足以推动他们做出改变；其次，告诉他们，如何改变做事方式，或者依靠擅长自己弱项的人
@@ -23,7 +25,11 @@
 
 * frank and ongoing evaluations are so important.
 
-#### 组织
+##### 9.9 培训、设护栏或辞退员工，不要修复
+
+* 鉴于价值观和能力很难改变，修复通常是不切实际的
+
+* Since values and abilities are difficult to change, rehabilitation is typically impractical
 
 
 
