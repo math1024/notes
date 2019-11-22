@@ -28,8 +28,16 @@
 ##### 9.9 培训、设护栏或辞退员工，不要修复
 
 * 鉴于价值观和能力很难改变，修复通常是不切实际的
-
 * Since values and abilities are difficult to change, rehabilitation is typically impractical
+
+##### 9.9a 不要让员工尸位素餐
+
+* 与辞退人或重新委派任务相比，把一个人留在不适合的岗位上才更糟糕
+* It is much worse to keep someone in a job unsuitable for them than it is to fire or reassign them.
+
+9.9b 准备好"朝你爱的人开枪"
+
+* love the people you shoot
 
 
 
