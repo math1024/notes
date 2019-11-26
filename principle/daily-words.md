@@ -24,3 +24,6 @@
   英[ˌmerɪˈtɒkrəsi]美[ˌmerɪˈtɑːkrəsi]
   n.	精英领导体制; 英才管理制度; 精英管理班子;
   * But the process also underpins the bank's claim of meritocracy.
+* reach a point in all relationships 某一时刻
+* on the fundamentals of our culture 文化根基
+* that’s common in private life and at any organization 很普遍

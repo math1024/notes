@@ -38,6 +38,13 @@
 9.9b 准备好"朝你爱的人开枪"
 
 * love the people you shoot
+* Doing this is one of those difficult, necessary things. 困难面必要的事情
+* it is necessary for the long-term excellence of the company. 长期卓越
+
+9.11 不要降低标准
+
+* **如果一个人无法在一定时间内达到我们在追求卓越、极度求真、极度透明等方面的高标准，那么就必须离开。**
+* if a person cannot operate within our requirements of excellence through radical truth and transparency in an acceptable time frame, he or she must leave.
 
 
 
