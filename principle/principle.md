@@ -46,5 +46,15 @@
 * **如果一个人无法在一定时间内达到我们在追求卓越、极度求真、极度透明等方面的高标准，那么就必须离开。**
 * if a person cannot operate within our requirements of excellence through radical truth and transparency in an acceptable time frame, he or she must leave.
 
+##### 10 像操作一部机器那样进行管理以实现目标
 
+* 无论你做什么工作，从更高层次的角度看，你就是在设定目标，并建造机器来实现目标
+* No matter what work you do, at a high level you are simply setting goals and building machines to help you achieve them
+* 不管你设计得有多好，你的机器总会出问题
+* No matter how good you are at design, your machine will have problems.
+
+##### 10.1a 不断把结果和你的目标进行对照
+
+* 所有产出都会反映出机器运转情况
+* **as all outcomes are reﬂections of how the machine is running**
 

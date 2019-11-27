@@ -27,3 +27,5 @@
 * reach a point in all relationships 某一时刻
 * on the fundamentals of our culture 文化根基
 * that’s common in private life and at any organization 很普遍
+* fail at this diagnosis 
+* fall short of your potential. 无法实现
