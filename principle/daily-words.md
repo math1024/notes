@@ -29,3 +29,6 @@
 * that’s common in private life and at any organization 很普遍
 * fail at this diagnosis 
 * fall short of your potential. 无法实现
+* metric 英[ˈmetrɪk]美[ˈmetrɪk]
+  adj.	米制的; 公制的; 按公制制作的; 用公制测量的;
+  n.	度量标准; [数学] 度量; 诗体; 韵文; 诗韵;
