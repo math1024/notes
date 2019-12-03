@@ -32,3 +32,9 @@
 * metric 英[ˈmetrɪk]美[ˈmetrɪk]
   adj.	米制的; 公制的; 按公制制作的; 用公制测量的;
   n.	度量标准; [数学] 度量; 诗体; 韵文; 诗韵;
+
+#### Dec 12
+
+*  bog 泥潭
+* get bogged down 陷入困境、陷入停滞状态
+  * you must not get bogged down in detail 千万别拘泥于细节

@@ -61,12 +61,13 @@
 ##### 10.1c 制定量化评价工具
 
 * 量化工具是进行评价的客观途径，并对提高生产率往往有良好功效
-
 * Metrics are an objective means of assessment and they tend to have a favorable impact on productivity
-
 * 制定量化工具时，要考虑到你为了解事物进展而需要回答的最重要的问题，并设想哪些数据可以提供答案。不要将你已有的数据按你的意图去粉饰
-
 * In constructing your metrics, imagine the most important questions you need answered in order to know how things are going and imagine what numbers will give you the answers to them. Don’t look at the numbers that you have and try to adapt them to your purposes
 * 要记住，任何一个量化工具都可能给出误导的信息
 * Remember that any single metric can mislead; you need enough evidence to establish patterns.
 
+##### 10.1d 要注意别把精力过多用于应付眼前的各种事务，而忽视你的机器
+
+* If you keep your focus on each individual task, you will inevitably get bogged down. If instead you **pay attention to building and managing your machines**, you will be rewarded many times over
+* 如果只把注意力放在完成每个单项任务上，你就会不可避免地深陷其中。如果你能**把注意力放在建造和管理机器上**，就会不断有所回报
