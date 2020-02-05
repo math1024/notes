@@ -1,7 +1,8 @@
+[TOC]
+
 * 21 Lesson for the 21st century 《今日简史》
 * [以色列 尤瓦尔·赫拉利 Yuval Noah Harari著   林俊宏译]
 
-[TOC]
 
 #### 三 绝望与希望
 
