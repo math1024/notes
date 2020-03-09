@@ -44,9 +44,9 @@
    * ln -s /usr/local/python3/bin/python3 /usr/bin/python3
    * ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3 
 2. spider
-   
+  
 * pip3 install requets, selenium,beautifulsoup4,pymongo
-   
+  
 3. mongodb 172.24.243.26 39.104.127.247
 
    * wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-4.0.4.tgz
@@ -66,5 +66,12 @@
    apt-get autoremove software_name//卸载软件及其依赖的安装包
    ```
 
-   
+
+5. grep 
+
+```shell
+# 排除指定字符串
+grep -v
+
+```
 
