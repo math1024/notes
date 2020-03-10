@@ -72,6 +72,8 @@
 ```shell
 # 排除指定字符串
 grep -v
+# 排除指定目录，注意转义\ =前后不能有空格
+grep -r --exclude-dir=\.svn
 
 ```
 
