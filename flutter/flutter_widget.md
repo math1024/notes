@@ -79,7 +79,19 @@ FlatButton(
 
 #### TextField
 
-
+```dart
+new TextField(
+  controller: _textController,
+  onSubmitted: _handleSubmitted,
+  decoration:
+  new InputDecoration.collapsed(hintText: "Send a message"),
+  onChanged: (String text) {
+  setState(() {
+    _isComposing = text.length > 0;
+  });                               
+ },
+),	
+```
 
 #### list
 
@@ -123,5 +135,62 @@ Widget _buildRow(WordPair pair) {
       });
     },
   );
+```
+
+#### Flexible
+
+```dart
+ new Flexible(
+   child: new ListView.builder(
+     padding: new EdgeInsets.all(8.0),
+     // start from bottom
+     reverse: true,
+     itemBuilder: (_, int index) => _messages[index],
+     itemCount: _messages.length,
+   ),
+ ),
+```
+
+
+
+#### Padding & Margin
+
+```dart
+margin: const EdgeInsets.symmetric(horizontal: 8.0),
+padding: new EdgeInsets.all(8.0), 
+```
+
+#### Column & Row
+
+
+
+#### [BoxDecoration](https://docs.flutter.io/flutter/painting/BoxDecoration-class.html) 
+
+
+
+#### Animation
+
+##### AnimationController
+
+```dart
+class ChatScreenState extends State<ChatScreen> with TickerProviderStateMixin
+animationController: new AnimationController(
+        duration: new Duration(milliseconds: 700),
+        vsync: this,
+      ),
+```
+
+
+
+##### SizeTransition
+
+```dart
+new SizeTransition(
+  sizeFactor: new CurvedAnimation(
+    //new
+    parent: animationController,
+    curve: Curves.easeOut),
+  axisAlignment: 0.0,
+  child: Container()
 ```
 
