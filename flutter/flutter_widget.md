@@ -77,7 +77,7 @@ FlatButton(
 - [RawMaterialButton](https://api.flutter.dev/flutter/material/RawMaterialButton-class.html), the widget this widget is based on.
 - [material.io/design/components/buttons.html](https://material.io/design/components/buttons.html)
 
-#### TextField
+#### [TextField](https://api.flutter.dev/flutter/material/TextField-class.html)
 
 ```dart
 new TextField(
@@ -86,14 +86,23 @@ new TextField(
   decoration:
   new InputDecoration.collapsed(hintText: "Send a message"),
   onChanged: (String text) {
-  setState(() {
-    _isComposing = text.length > 0;
-  });                               
+    setState(() {
+      _isComposing = text.length > 0;
+    });                               
  },
 ),	
+
+// password
+TextField(
+  obscureText: true, // 不显示
+  decoration: InputDecoration(
+    border: OutlineInputBorder(),
+    labelText: 'Password',
+  ),
+)
 ```
 
-#### list
+#### ListView & GridView
 
 ##### listView.builder
 
@@ -108,6 +117,29 @@ ListView.builder(
   }
   return _buildRow(_suggestions[index]);
 });
+```
+
+##### list.generate
+
+```dart
+List.generate(_listItemCount(products.length), (int index) {
+      double width = .59 * MediaQuery.of(context).size.width;
+      Widget column;
+      if (index % 2 == 0) {
+        /// Even cases
+        int bottom = _evenCasesIndex(index);
+        column = TwoProductCardColumn(
+            bottom: products[bottom],
+            top: products.length - 1 >= bottom + 1
+                ? products[bottom + 1]
+                : null);
+        width += 32.0;
+      } else {
+        /// Odd cases
+        column = OneProductCardColumn(
+          product: products[_oddCasesIndex(index)],
+        );
+      }
 ```
 
 listTile
@@ -137,6 +169,19 @@ Widget _buildRow(WordPair pair) {
   );
 ```
 
+##### GridView.count
+
+```dart
+body: GridView.count(
+  crossAxisCount: 2,
+  padding: EdgeInsets.all(16.0),
+  childAspectRatio: 8.0 / 9.0,
+  children: <Widget>[Card()],
+),
+```
+
+
+
 #### Flexible
 
 ```dart
@@ -151,6 +196,12 @@ Widget _buildRow(WordPair pair) {
  ),
 ```
 
+#### Card
+
+```dart
+
+```
+
 
 
 #### Padding & Margin
@@ -161,6 +212,51 @@ padding: new EdgeInsets.all(8.0),
 ```
 
 #### Column & Row
+
+#### AppBar
+
+```dart
+ appBar: AppBar(
+   // LTR-left
+   leading: IconButton(
+     icon: Icon(
+       Icons.menu,
+       semanticLabel: 'menu',
+     ),
+     onPressed: () {
+       print('Menu button');
+     },
+   ),
+   title: Text('Home Page'),
+   // LTR-right
+   actions: <Widget>[
+     IconButton(
+       icon: Icon(
+         Icons.search,
+         semanticLabel: 'search',
+       ),
+       onPressed: () {
+         print('Search button');
+       },
+     ),
+     IconButton(
+       icon: Icon(
+         Icons.tune,
+         semanticLabel: 'filter',
+       ),
+       onPressed: () {
+         print('Filter button');
+       },
+     ),
+   ],
+ ),
+```
+
+#### LayoutBuilder
+
+```dart
+
+```
 
 
 

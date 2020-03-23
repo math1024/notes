@@ -121,6 +121,7 @@ Theme.of(context).copyWith
 * vsync 不可见时暂停动画
 * AnimatedWidget 与 AnimatedBuilder
 * hero 共享动画
+* lerp 插值
 
 #### widget间共享数据
 
