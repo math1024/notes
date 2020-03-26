@@ -343,28 +343,26 @@ AssetImage('assets/placeholder.png', package: 'package4');
       sdk: flutter// UI
   ```
 
-  极客时间版权所有: https://time.geekbang.org/column/article/140079
-
   	* 测试用例三部分，定义、执行、验证
-  	* 包装在test内部 test是Flutter提供的测试类
+	* 包装在test内部 test是Flutter提供的测试类
   	* 多个test可以放同一组group
-
+  
   ```dart
-  group('name1', () {
+group('name1', () {
   	test('name2', (){});
   	test('name3', (){})
   })
   ```
-
+  
   * testWidgets widgetTester
 
   ```
-  testWidgets('name', (Widgettester tester) async {
+testWidgets('name', (Widgettester tester) async {
      await test.pumpWidget(MyApp())
      expect(find.text('0'))
   })
   ```
-
+  
 * 异常处理
 
   * 同步异常 try-catch
