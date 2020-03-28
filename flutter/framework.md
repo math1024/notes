@@ -87,6 +87,8 @@ getMsg(sendPort) => sendPort.send("Hello");
 ```
 
 * 双向通信 compute 函数
+* 每个isolate包含一个事件循环以及两个事件队列，event loop事件循环，以及event queue和microtask queue事件队列，
+  
 
 #### 网络
 
