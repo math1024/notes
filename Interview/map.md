@@ -14,10 +14,18 @@
   - 自定义View
     - pathmeasure
 - 网络
+  - http\https
+  - 
 - linux
+  - shell 脚本
 - 新技术
   - flutter
 - 团队
+  - 日报、周报
+  - 复盘
+  - 分享
+  - 项目看板
+  - 季度规划、半年规划
 - 编程
   - 函数式（函数为参数）、声明式（sql、html、css）、命令式（java、c大部分语言）
   - 并发同步
