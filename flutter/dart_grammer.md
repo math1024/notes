@@ -10,6 +10,14 @@ print('print log')
 
 ###### with
 
+###### 类型转换
+
+```dart
+// int->String String ->int
+int.parse("100");
+123.toString();
+```
+
 ###### show
 
 ```dart
@@ -19,7 +27,29 @@ import 'dart:ui' show lerpDouble;
 
 ###### async\await
 
+###### list
+
 ```dart
+// 不定长list
+var testList = List();
+print(testList.length);//输出0
+// 定长
+var testList2 = List(2);
+print(testList.length); // 2
+// 固定类型
+var testList3 = List<String>();
+// 直接赋值
+var testList4 = [124,12,212,55];
+print(testList4.first); // 124
+print(testList4.last); // 55
+print(testList4[2]); // 212
+print(testList4.isEmpty);
+print(testList.isNotEmpty);
+// 添加
+// 删除
+testList4.removeLast();
+testList4.removeAt(1)
+testList4.removeRange(0,1);
 
 ```
 
