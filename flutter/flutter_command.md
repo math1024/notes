@@ -15,9 +15,23 @@ flutter doctor
 flutter upgrade
 ```
 
-* Web 
+* 多设备 web&mobile
 
 ```shell
 flutter run -d chrome
+flutter run -d mobileXXX 序列号
+```
+
+* 清理cache
+
+```shell
+flutter precache
+```
+
+* 切换渠道
+
+```
+flutter channel
+flutter channel master
 ```
 
