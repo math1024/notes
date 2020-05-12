@@ -58,6 +58,7 @@ testList4.removeRange(0,1);
 ##### factory
 
 * 实现构造函数但是不想每次都创建该类的一个实例的时候使用
+* 不能通过this
 
 ```dart
  factory ClassName.method() {
