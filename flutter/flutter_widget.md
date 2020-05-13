@@ -102,6 +102,29 @@ TextField(
 )
 ```
 
+####TextFormField 
+
+* TextField 封装类，方便做表单验证
+
+```dart
+ TextFormField(
+   decoration: InputDecoration(
+     fillColor: Colors.white,
+     hintText: '请输入事件名',
+     filled: true,
+     prefixIcon: Icon(
+       Icons.search,
+       size: 28.0,
+     ),
+     suffixIcon: IconButton(
+       icon: Icon(Icons.clear),
+       onPressed: () {
+         debugPrint('222');
+       })),
+ ),
+)
+```
+
 #### ListView & GridView
 
 ##### listView.builder

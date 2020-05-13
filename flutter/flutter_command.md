@@ -15,6 +15,15 @@ flutter doctor
 flutter upgrade
 ```
 
+* 多模拟器
+
+```shell
+// 多个模拟器
+flutter emulators
+// 启动模拟器
+flutter emulators --launch apple_ios_simulator
+```
+
 * 多设备 web&mobile
 
 ```shell
@@ -34,4 +43,3 @@ flutter precache
 flutter channel
 flutter channel master
 ```
-
