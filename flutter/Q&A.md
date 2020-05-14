@@ -397,6 +397,31 @@ testWidgets('name', (Widgettester tester) async {
 
     
 
+#### print debugPrint log
+
+* [debug logs](https://flutter.dev/docs/testing/code-debugging
+* debugPrint()
+  If you output too much at once, then Android sometimes discards some log lines. To avoid this, use debugPrint(), from Flutter’s foundation library. This is a wrapper around print that throttles the output to a level that avoids being dropped by Android’s kernel.
+
+```dart
+// developer log
+import 'dart:developer' as developer;
+
+void main() {
+  developer.log('log me', name: 'my.app.category');
+
+  developer.log('log me 1', name: 'my.other.category');
+  developer.log('log me 2', name: 'my.other.category');
+}
+
+// std out
+stderr.writeln('print me');
+
+// debugPrint
+```
+
+
+
 #### Trouble shoot
 
 ##### 工程协作
