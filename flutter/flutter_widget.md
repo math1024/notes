@@ -68,9 +68,35 @@ FlatButton(
  ),
 ```
 
+[DropdownButton](https://api.flutter.dev/flutter/material/DropdownButton-class.html), a button that shows options to select from.
 
+```dart
+@override
+Widget build(BuildContext context) {
+    String dropdownValue = '版本';
+....
+  
+DropdownButton<String>(
+  value: dropdownValue,
+  icon: Icon(Icons.arrow_drop_down),
+  iconSize: 24,
+  elevation: 16,
+  style: TextStyle(color: Colors.blue),
+  onChanged: (String newValue) {
+    setState(() {
+      dropdownValue = newValue;
+    });
+  },
+  items: <String>['版本', 'One', 'Two', 'Free', 'Four']
+  .map<DropdownMenuItem<String>>((String value) {
+    return DropdownMenuItem<String>(
+      value: value,
+      child: Text(value),
+    );
+  }).toList(),
+),
+```
 
-- [DropdownButton](https://api.flutter.dev/flutter/material/DropdownButton-class.html), a button that shows options to select from.
 - [FloatingActionButton](https://api.flutter.dev/flutter/material/FloatingActionButton-class.html), the round button in material applications.
 - [IconButton](https://api.flutter.dev/flutter/material/IconButton-class.html), to create buttons that just contain icons.
 - [InkWell](https://api.flutter.dev/flutter/material/InkWell-class.html), which implements the ink splash part of a flat button.
@@ -311,5 +337,37 @@ new SizeTransition(
     curve: Curves.easeOut),
   axisAlignment: 0.0,
   child: Container()
+```
+
+#### RadioListTile
+
+```dart
+ Row(
+   children: [
+     Flexible(
+       child: RadioListTile(
+         value: 1,
+         groupValue: this.deviceType,
+         title: Text('IOS'),
+         onChanged: (value) {
+           setState(() {
+             this.deviceType = value;
+           });
+         },
+       )),
+     Flexible(
+       child: RadioListTile(
+         value: 2,
+         groupValue: this.deviceType,
+         title: Text('ANDROID'),
+         onChanged: (value) {
+           setState(() {
+             this.deviceType = value;
+           });
+         },
+       ),
+     )
+   ],
+ ),
 ```
 
