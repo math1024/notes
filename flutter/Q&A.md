@@ -284,6 +284,14 @@ AssetImage('assets/placeholder.png', package: 'package4');
 * OrientationBuilder，需要针对横竖屏也两套布局
 * MediaQueryData 获取屏幕尺寸
 
+```dart
+padding: const EdgeInsets.all(10.0),
+width: MediaQuery.of(context).size.width,
+height: 300,
+```
+
+
+
 #### 打包集成
 
 * 去除 右上角 debug标识 debugShowCheckedModeBanner: false
