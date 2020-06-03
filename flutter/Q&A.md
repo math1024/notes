@@ -262,21 +262,25 @@ AssetImage('assets/placeholder.png', package: 'package4');
 * Route 是页面的抽象 可构造页面名称、参数
 
   * 基本路由 MaterialPageRoute
+* 命名路由. 模块化基础
 
-  * 命名路由. 模块化基础
+```左手
+MaterialApp(
+    ...
+    // 注册
+    routes:{
+      "second_page":(context)=>SecondPage(),
+    },
+    onUnknownRoute: (RouteSettings setting) => MaterialPageRoute（builder: (context) => UnknownPage())
+);
+Navigator.pushNamed(context,"second_page", arguments: "Hey");
 
-    ```左手
-    MaterialApp(
-        ...
-        // 注册
-        routes:{
-          "second_page":(context)=>SecondPage(),
-        },
-        onUnknownRoute: (RouteSettings setting) => MaterialPageRoute（builder: (context) => UnknownPage())
-    );
-    Navigator.pushNamed(context,"second_page", arguments: "Hey");
-    
-    ```
+// 通过then接收返回值
+  Navigator.of(context)
+                          .push(MaterialPageRoute(builder: (context) {
+                        return EventFind(pageSource: EventPageSource.fromMainPage);
+                      })).then((value) => print(value));
+```
 
 
 #### 横竖屏

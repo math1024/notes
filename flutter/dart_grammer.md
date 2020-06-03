@@ -68,3 +68,13 @@ testList4.removeRange(0,1);
   }
 ```
 
+##### runtimeType  
+
+* 查看对象类型
+
+```dart
+List list = SystemUtility.getVersionList();
+print(list);
+print(list.runtimeType.toString());
+```
+
