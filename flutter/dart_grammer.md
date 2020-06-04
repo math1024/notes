@@ -16,6 +16,21 @@ print('print log')
 // int->String String ->int
 int.parse("100");
 123.toString();
+// String to int
+var one = int.parse('1');
+print(one);
+
+// String to double
+var onePointOne = double.parse('1.1');
+print(onePointOne);
+
+// int to String
+String twenty = 20.toString();
+print(twenty);
+
+// double to String
+String pi= 3.14316.toStringAsFixed(2);
+print(pi);
 ```
 
 ###### show
@@ -76,5 +91,17 @@ testList4.removeRange(0,1);
 List list = SystemUtility.getVersionList();
 print(list);
 print(list.runtimeType.toString());
+```
+
+##### map
+
+```dart
+xList = ['2020-3-4', '2020-3-5', '2020-3-6'];
+yList = [ "500", "1000", "1500", "2000", "2500"];
+print('xList: $xList  yList:$yList times $times');
+times = {"7.0.0": [100, 400, 300],'7.1.0':[100,200,300]};
+List<String> versions = times.keys.toList();
+List<List<int>> count = times.values.toList();
+print('versions$versions count$count');
 ```
 
