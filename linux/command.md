@@ -77,3 +77,37 @@ grep -r --exclude-dir=\.svn
 
 ```
 
+6. dd
+
+```shell
+# dd命令，可以从标准输入或指定的文件中读取数据，拷贝至新文件
+dd if=/dev/zero of=big_file count=10 bs=1G
+# time 查看时间
+time dd if=/dev/zero of=big_file count=10 bs=1G
+```
+
+7. fallocate
+
+```shell
+# fallocate命令可以为文件预分配物理空间。-l后接空间大小，默认单位为字节。也可后跟k、m、g、t、p、e来指定单位，分别代表KB、MB、GB、TB、PB、EB。
+fallocate -l 10G big_file
+
+# 创建的文件是真实大小
+du -sh big_file
+10G    big_file
+```
+
+8. truncate
+
+```shell
+# truncate命令可以将文件缩减或扩展为指定大小，使用-s参数设置大小。
+truncate -s 10G big_file
+
+# 分别使用ls与du查看文件大小，创建的文件并不是真实大小
+ls -lh big_file 
+-rw-r--r-- 1 root root 10G Jun  2 11:11 big_file
+
+$ du -sh big_file 
+0    big_file
+```
+
