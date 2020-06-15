@@ -134,7 +134,7 @@ git biset查找有问题的commit
 git gc 清理 .git/pack
 ```
 
-删除远程库地址
+* 删除远程库地址
 
 ```shell
 git remote rm origin
@@ -149,5 +149,44 @@ git submodule init 初始化子模块
 git submodule update 更新子模块
 git submodule foreach git pull 拉取所有子模块
 git clone project.git --recursive
+```
+
+* 查看commit在哪个分支 git branch --contains
+
+```
+语法：git branch --contains <commit-id>
+命令：git branch --contains 700920
+```
+
+* git filter-branch --env-filter
+
+```shell
+
+```
+
+* git format-patch 生成patch
+
+```shell
+# 生成最近的1次commit的patch
+git format-patch HEAD^ 　　　　　　　　　　　　　  
+# 生成最近的2次commit的patch
+git format-patch HEAD^^　　　　　　　　　　　　　  
+# 生成两个commit间的修改的patch（包含两个commit <r1>和<r2>都是具体的commit号)
+git format-patch <r1>..<r2> 
+# 生成单个commit的patch
+git format-patch -1 <r1>  
+# 生成某commit以来的修改patch（不包含该commit）
+git format-patch <r1>  
+# 生成从根到r1提交的所有patch
+git format-patch --root <r1>　　　　　　　　　　　　   
+```
+
+* git am \ git apply应用patch
+
+```shell
+# 直接应用patch作者信息
+git am 
+# 需要重新add和commit
+git apply
 ```
 
