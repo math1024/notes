@@ -190,3 +190,9 @@ git am
 git apply
 ```
 
+* git count-objects -v -H
+
+```
+
+```
+

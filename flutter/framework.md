@@ -117,6 +117,14 @@ getMsg(sendPort) => sendPort.send("Hello");
 * 封装数据、存放数据、开放获取方法
 * 官方provider `ChangeNotifierProvider.value or MultiProvider`
 * Consumer 保证只刷新需要变更的控件
+* redux
+  * reduce
+
+```dart
+
+```
+
+
 
 #### Hot load
 
