@@ -119,6 +119,7 @@ getMsg(sendPort) => sendPort.send("Hello");
 * Consumer 保证只刷新需要变更的控件
 * redux
   * reduce
+  * StoreConnector、Storebuilder
 
 ```dart
 

@@ -22,6 +22,14 @@ MaterialApp(
 );
 
 Theme.of(context).copyWith
+  
+// 设置背景 
+Scaffold(
+   appBar: AppBar(
+     title: Text('State Select Entrance'),
+     backgroundColor: Colors.cyan,
+     brightness: Brightness.dark,),
+   backgroundColor: Colors.amberAccent,)
 ```
 
 ##### Text

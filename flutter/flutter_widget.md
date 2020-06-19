@@ -39,6 +39,13 @@ RaisedButton(
   ),
   padding: const EdgeInsets.all(20.0),
   onPressed: (){})
+  
+  
+// shape 种类
+BeveledRectangleBorder 带斜角的长方形边框
+CircleBorder 圆形边框
+RoundedRectangleBorder 圆角矩形
+StadiumBorder 两端是半圆的边框
 ```
 
 - [FlatButton](https://api.flutter.dev/flutter/material/FlatButton-class.html), a material design button without a shadow.
@@ -227,6 +234,20 @@ body: GridView.count(
   childAspectRatio: 8.0 / 9.0,
   children: <Widget>[Card()],
 ),
+```
+
+
+
+##### Align
+
+```dart
+const Align({
+    Key key,
+    this.alignment: Alignment.center,
+    this.widthFactor,
+    this.heightFactor,
+    Widget child
+  })
 ```
 
 

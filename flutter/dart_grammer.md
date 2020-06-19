@@ -105,3 +105,10 @@ List<List<int>> count = times.values.toList();
 print('versions$versions count$count');
 ```
 
+##### import\show\hide\part
+
+* import 完全导入
+* show 导入部分
+* hide 隐藏部分
+* part 拆分库，如果使用part来构建库，那么库必须要命名 
+  * import 导入不共享，part导入是共享的
