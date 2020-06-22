@@ -236,8 +236,6 @@ body: GridView.count(
 ),
 ```
 
-
-
 ##### Align
 
 ```dart
@@ -248,6 +246,12 @@ const Align({
     this.heightFactor,
     Widget child
   })
+```
+
+#### Postioned
+
+```dart
+
 ```
 
 
@@ -282,6 +286,20 @@ padding: new EdgeInsets.all(8.0),
 ```
 
 #### Column & Row
+
+#### Container\Expand\SizeBox\AspectRadio\FractionallySizeBox
+
+```dart
+
+```
+
+#### Expand\Flexible\Spacer
+
+```dart
+
+```
+
+
 
 #### AppBar
 
