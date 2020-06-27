@@ -111,3 +111,9 @@ $ du -sh big_file
 0    big_file
 ```
 
+9. du 查看当前目录文件大小
+
+```shell
+du -sh
+```
+

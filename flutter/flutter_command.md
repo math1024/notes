@@ -43,3 +43,21 @@ flutter precache
 flutter channel
 flutter channel master
 ```
+
+* 生成json解析
+  * 先内后外、
+  * 写实体类、添加注解、part .g.daa、执行以下命令生成文件
+
+```dart
+flutter packages pub run build_runner build
+```
+
+* Trouble
+  *  Invalid `Podfile` file: cannot load such file --
+
+```shell
+flutter clean
+flutter pub get
+进入ios目录pod install
+```
+

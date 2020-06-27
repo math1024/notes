@@ -15,3 +15,6 @@
 * 网络 [dio](https://pub.dev/packages/dio#examples)
 * [loading](https://pub.dev/packages/flutter_spinkit)
 * [toast](https://pub.dev/packages/fluttertoast)
+* [json_serializable](https://pub.dev/packages/json_serializable)
+  * [开放API](https://github.com/HackerNews/API)
+
