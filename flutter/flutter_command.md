@@ -61,3 +61,24 @@ flutter pub get
 进入ios目录pod install
 ```
 
+* 创建新工程
+
+```dart
+flutter create xxapp
+//指定语言，安卓使用Kotlin，iOS使用Swift
+flutter create -i swift -a kotlin xxapp
+  
+// Flutter平台插件工程，包含Dart层与Native平台层的实现
+flutter create --template=plugin xxapp_plugin
+// 混入原生工程
+flutter create -t module xxapp_module
+// 定义公共widget 
+flutter create --template=package xxapp_package
+```
+
+* 单元测试
+
+```dart
+flutter test
+```
+
