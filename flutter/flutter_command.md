@@ -82,3 +82,14 @@ flutter create --template=package xxapp_package
 flutter test
 ```
 
+* 打包
+
+```dart
+// 默认realease包
+flutter build apk
+flutter build apk --debug
+
+// clean
+flutter clean
+```
+

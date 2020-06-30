@@ -112,3 +112,14 @@ print('versions$versions count$count');
 * hide 隐藏部分
 * part 拆分库，如果使用part来构建库，那么库必须要命名 
   * import 导入不共享，part导入是共享的
+
+##### String split
+
+```dart
+// 单字符分割
+split('') 
+// 正则表达 多分割符
+RegExp re = RegExp(':|,|}');
+String.split(re)
+```
+

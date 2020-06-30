@@ -75,3 +75,21 @@
 
 * If you keep your focus on each individual task, you will inevitably get bogged down. If instead you **pay attention to building and managing your machines**, you will be rewarded many times over
 * 如果只把注意力放在完成每个单项任务上，你就会不可避免地深陷其中。如果你能**把注意力放在建造和管理机器上**，就会不断有所回报
+
+
+
+#### 每日原则 
+
+* 可能会重复
+
+#####  找出一个问题之后不要容忍问题
+
+* Tolerating a problem has the same consequences as failing to identify it
+*  You need to develop a ﬁerce intolerance of badness of any kind, regardless of its severity
+* 找到问题的真正原因
+
+##### 做一个超级现实的人
+
+* The pursuit of dreams is what gives life its ﬂavor. 
+* My point is that people who create great things aren’t idle dreamers: They are totally grounded in reality. Being hyperrealistic will help you choose your dreams wisely and then achieve them.
+
