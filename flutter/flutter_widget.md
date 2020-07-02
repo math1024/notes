@@ -455,3 +455,9 @@ Widget build(BuildContext context) {
 
 ```
 
+##### PageController
+
+```dart
+// gallery
+```
+

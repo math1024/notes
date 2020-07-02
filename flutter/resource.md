@@ -17,4 +17,6 @@
 * [toast](https://pub.dev/packages/fluttertoast)
 * [json_serializable](https://pub.dev/packages/json_serializable)
   * [开放API](https://github.com/HackerNews/API)
+* [fl_chart](https://pub.dev/packages/fl_chart)
+* 
 
