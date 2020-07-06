@@ -74,6 +74,9 @@ flutter create --template=plugin xxapp_plugin
 flutter create -t module xxapp_module
 // 定义公共widget 
 flutter create --template=package xxapp_package
+  
+Flutter对于平台级的包是plugin，比如主要是和平台相关的功能，如path_provider、sqlfilte,
+用纯Dart的开发的包是package，这和平台无关，可以跨平台使用，比如bloc、provider、flutter_star
 ```
 
 * 单元测试
