@@ -461,3 +461,37 @@ Widget build(BuildContext context) {
 // gallery
 ```
 
+##### actionChips
+
+```dart
+/// one complex widget
+ActionChip(
+  label: Text('ActionChip'),
+  avatar: Icon(Icons.details),
+  tooltip: 'ActionChip Button',
+  onPressed: () {
+    print('ActionChip Sample');
+  })
+```
+
+
+
+##### debug
+
+```dart
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart'; // 1.第一步
+import 'login.dart';
+ 
+void main() {
+  debugPaintSizeEnabled = true; //2.第二步 打开UI边距
+  runApp(MyApp());
+}
+
+// 
+debugPaintBaselinesEnabled
+// 应用程序导致重新布局或重新绘制的原因
+debugPrintMarkNeedsLayoutStacks
+debugPrintMarkNeedsPaintStacks
+```
+

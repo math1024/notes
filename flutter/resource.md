@@ -9,6 +9,7 @@
 * [flutter doc](https://flutter.dev)
 * [cook book](https://flutter.dev/docs/cookbook)
 * [dart grammer](https://dart.dev/samples)
+* [library dev](https://dart.dev/guides/libraries/create-library-packages)
 
 ####  开源库
 

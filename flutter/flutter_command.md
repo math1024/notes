@@ -96,3 +96,11 @@ flutter build apk --debug
 flutter clean
 ```
 
+* 性能
+
+```dart
+// 衡量启动时间
+flutter run --trace-startup --profile
+* relayoutSubtreeRoot=up8，这意味着当它RenderParagraph被标及为”dirty”时，它的八个祖先也必须被标记为”dirty”
+```
+
