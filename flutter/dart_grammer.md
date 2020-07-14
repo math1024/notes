@@ -143,3 +143,60 @@ print(now.add(new Duration(hours: -2))); //减2天
   */
 ```
 
+##### future
+
+* then 成功消息 catchError   完成状态、未完成状态（网络请求过程中）
+
+* 微任务队列、事件队列，前者高于后者
+* then的函数体要分成三种情况：
+  * 情况一：Future没有执行完成（有任务需要执行），那么then会直接被添加到Future的函数执行体后；
+  * 情况二：如果Future执行完后就then，该then的函数体被放到如微任务队列，当前Future执行完后执行微任务队列；
+  * 情况三：如果Future世链式调用，意味着then未执行完，下一个then不会执行；
+
+```dart
+// future_1加入到eventqueue中，紧随其后then_1被加入到eventqueue中
+Future(() => print("future_1")).then((_) => print("then_1"));
+
+// Future没有函数执行体，then_2被加入到microtaskqueue中
+Future(() => null).then((_) => print("then_2"));
+
+// future_3、then_3_a、then_3_b依次加入到eventqueue中
+Future(() => print("future_3")).then((_) => print("then_3_a")).then((_) => print("then_3_b"));
+
+void main() {
+  print("main start");
+
+  Future(() => print("task1"));
+
+  final future = Future(() => null);
+
+  Future(() => print("task2")).then((_) {
+    print("task3");
+    scheduleMicrotask(() => print('task4'));
+  }).then((_) => print("task5"));
+
+  future.then((_) => print("task6"));
+  scheduleMicrotask(() => print('task7'));
+
+  Future(() => print('task8'))
+      .then((_) => Future(() => print('task9')))
+      .then((_) => print('task10'));
+
+  print("main end");
+}
+
+result:
+main start
+main end
+task7
+task1
+task6
+task2
+task3
+task5
+task4
+task8
+task9
+task10
+```
+

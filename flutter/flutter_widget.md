@@ -474,9 +474,7 @@ ActionChip(
   })
 ```
 
-
-
-##### debug
+#### debug
 
 ```dart
 import 'package:flutter/material.dart';
@@ -493,5 +491,13 @@ debugPaintBaselinesEnabled
 // 应用程序导致重新布局或重新绘制的原因
 debugPrintMarkNeedsLayoutStacks
 debugPrintMarkNeedsPaintStacks
+
+// 显示性能柱状图  
+showPerformanceOverlay
+  
+/// 方法调用时间  
+Timeline.startSync('interesting function');
+// 方法
+Timeline.finishSync();
 ```
 
