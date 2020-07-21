@@ -145,6 +145,8 @@ print(now.add(new Duration(hours: -2))); //减2天
 
 ##### future
 
+* 多个future按创建顺序先行，多个then嵌套，先执行外面再执行里面的
+
 * then 成功消息 catchError   完成状态、未完成状态（网络请求过程中）
 
 * 微任务队列、事件队列，前者高于后者

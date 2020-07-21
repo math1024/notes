@@ -48,7 +48,7 @@ RoundedRectangleBorder 圆角矩形
 StadiumBorder 两端是半圆的边框
 ```
 
-- [FlatButton](https://api.flutter.dev/flutter/material/FlatButton-class.html), a material design button without a shadow.
+##### [FlatButton](https://api.flutter.dev/flutter/material/FlatButton-class.html), a material design button without a shadow.
 
 ```dart
 FlatButton(
@@ -75,7 +75,7 @@ FlatButton(
  ),
 ```
 
-[DropdownButton](https://api.flutter.dev/flutter/material/DropdownButton-class.html), a button that shows options to select from.
+##### [DropdownButton](https://api.flutter.dev/flutter/material/DropdownButton-class.html), a button that shows options to select from.
 
 ```dart
 @override
@@ -109,6 +109,32 @@ DropdownButton<String>(
 - [InkWell](https://api.flutter.dev/flutter/material/InkWell-class.html), which implements the ink splash part of a flat button.
 - [RawMaterialButton](https://api.flutter.dev/flutter/material/RawMaterialButton-class.html), the widget this widget is based on.
 - [material.io/design/components/buttons.html](https://material.io/design/components/buttons.html)
+
+##### RawMaterialButton
+
+```
+
+```
+
+##### So this
+
+```dart
+ FlatButton(
+   child: Row(
+     mainAxisAlignment: MainAxisAlignment.center, // Center the Widgets.
+     mainAxisSize: MainAxisSize.max, // Use all of width in RaisedButton.
+     children: <Widget>[
+       Padding(
+         padding: EdgeInsets.all(5.0), // Give to the text some space.
+         child: Text('$_version',),),
+       Icon(Icons.arrow_drop_down,),
+     ],
+   ),
+   onPressed: () {_showVersionDialog();}, /// For enabling the button
+ ),
+```
+
+
 
 #### [TextField](https://api.flutter.dev/flutter/material/TextField-class.html)
 
@@ -287,6 +313,16 @@ padding: new EdgeInsets.all(8.0),
 
 #### Column & Row
 
+```dart
+Column(
+  /// 类似 wrap_content
+  mainAxisSize: MainAxisSize.min,
+  children: [...]
+)
+```
+
+
+
 #### Container\Expand\SizeBox\AspectRadio\FractionallySizeBox
 
 ```dart
@@ -451,17 +487,13 @@ Widget build(BuildContext context) {
 
 #### FutureBuilder
 
-```dart
-
-```
-
-##### PageController
+#### PageController
 
 ```dart
 // gallery
 ```
 
-##### actionChips
+#### actionChips
 
 ```dart
 /// one complex widget
@@ -473,6 +505,30 @@ ActionChip(
     print('ActionChip Sample');
   })
 ```
+
+#### dialog
+
+```dart
+ showDialog(
+   context: context,
+   builder: (BuildContext context) {
+     return AlertDialog(
+       title: Text("Alert Dialog"),
+       content: Text("Hello Alert Dialog"),
+       actions: <Widget>[
+         FlatButton(
+           onPressed: () {
+             Navigator.of(context).pop(this);
+           },
+           child: Text("关闭"))
+       ],
+     shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.all(Radius.circular(20))),);
+     
+   });
+```
+
+
 
 #### debug
 
