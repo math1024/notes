@@ -175,11 +175,17 @@ TextField(
        Icons.search,
        size: 28.0,
      ),
+     
+     focusedBorder: UnderlineInputBorder(
+       borderSide: BorderSide(color: Colors.blue),
+
      suffixIcon: IconButton(
        icon: Icon(Icons.clear),
        onPressed: () {
          debugPrint('222');
        })),
+     onFieldSubmitted: (value) {
+     },
  ),
 )
 ```
