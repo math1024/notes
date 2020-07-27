@@ -563,3 +563,15 @@ Timeline.startSync('interesting function');
 Timeline.finishSync();
 ```
 
+##### 键盘收起
+
+```dart
+ GestureDetector(
+   behavior: HitTestBehavior.translucent,
+   onTap: () {
+     // 让键盘不再获取焦点
+     FocusScope.of(context).requestFocus(new FocusNode());
+   },
+   child: EventFindStatefulWidget(pageSource: pageSource)),
+```
+
