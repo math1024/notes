@@ -36,3 +36,14 @@ themes/assets/sass/_variables.scss#L5-L8
 
 ```
 
+##### 添加目录
+
+```shell
+# config.toml
+[[menu.main]]
+  name = "About"
+  weight = 50 # 显示顺序
+  identifier = "about"
+  url = "/about/"
+```
+
