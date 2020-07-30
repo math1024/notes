@@ -2,6 +2,104 @@
 
 
 
+#### 测试题
+
+1. widget 描述
+
+   widget是flutter里对视图的一种轻量化描述，不可变，每次变更都会驱动渲染更新， RenderObject负责渲染
+
+2. widget 生命周期
+
+   State 是widget生命周期承载者，widget不变，state变；initState在State对象插入树时调用
+
+   setState主动刷新 didchangeDependencies didUpdateWidget 被动触发， widget被移除时调用deactivate和dispose方法
+
+3. ListView
+
+   ListView通过外部Controller获取滚动状态、StatelessWidget、嵌套滚动时需使用CustomScrollView
+
+   *可以一次全部创建，也可以需要时才创建子widget?* **例子**
+
+4. 自定义widget
+
+   可以组装也可CustomPaint，还可以继承
+
+5. InheritedWidget\Notification\EventBus\Provider 都可以传递数据 
+
+6. a??b  ==  (a!=null)?a:b 
+
+7. Isolate
+
+   Dart通过Isolate并发、Isolate有自己的事件循环独占资源、
+
+   Future是基于事件循环实现的异步、Isolate之前通过管道实现双向通信
+
+8. Future顺序
+
+9. 持久化数据 
+
+   文件适用于字符串或二进制对象持久化、sharedPreferences适用于持久化小型键值对
+
+   数据库适用于持久化一个格式化对句 *Embedder?*
+
+10. Flutter 动画
+
+    动画的状态、控制与渲染是分享的，会频繁刷新、AnimatedWidget可以缩小动画的刷新范围
+
+    AnimateBuider继承AnimatedWidget，可以实现渲染与动画解耦
+
+11. 原生方法调用
+
+    原生接口的封装与调用是在FlutterView注册实现的，Dart和原生代码之间的通信是通过方法通道
+
+    实现、调用过程可以通过try-catch实现的
+
+12. Dart类实例初始化
+
+    支持初始化列表，可提前对变量赋值，*同类构造函数可以进行重写向转发？*，通过mixin解决多继承问题
+
+    对于同一个父类，子类可以分别采用继承、接口实现和mixin的方式实现类的复用
+
+13.  依赖管理
+
+    pubspec.yaml用于管理flutter工程资源依赖、运行环境和代码依赖
+
+    pubspec.yaml\pubspec.lock都要纳个版本管理
+
+    pubspec.lock所描述的组件依赖会以缓存形式下载到本地 在.package文件
+
+14. Hot Reload
+
+    main函数、initState、全局变量的改动是不支持Hot Reload
+
+15.  编译模式
+
+    断言只在Debug模式下生效 Debug模式支持JIT，DartVm提供运行时变量可以获取当前的编译模式*？？*
+
+16.  自动化测试 ？
+
+    测试用例需要在pubspec.yaml的dev_devpendencies声明依赖，对于外部依赖可以通过Mock方式返回数据 
+
+17.  异常处理
+
+    Isolate中的异常无法在主Isolate中获取、Zone可以集中处理应用的未处理异常、FlutterError可以集中处理Flutter框架中的异常
+
+18.  FPS
+
+    帧更新绘制依靠vsync信号驱动、丢帧是在绘制时间内占用多个vsync周期
+
+19.  App架构设计
+
+    组件关系通过分层划分实现，边界和弹性都需要考虑
+
+20. 工程混编
+
+    Fluttter原生组件的封装 aar（Android）和Framework（Pod）
+
+    .flutter-plugins文件记录了插件所对应的原生组件封装
+
+    FlutterView可以用于展示 Flutter模块工程的页面
+
 #### UI
 
 ##### StatuflulWidget SatelessWidget
