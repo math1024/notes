@@ -202,3 +202,49 @@ task9
 task10
 ```
 
+##### async
+
+```dart
+void main() async {
+  methodA();
+  await methodB();
+  await methodC('main');
+  methodD();
+}
+
+methodA(){
+  print('A');
+}
+
+methodB() async {
+  print('B start');
+  await methodC('B');
+  print('B end');
+}
+
+methodC(String from) async {
+  print('C start from $from');
+
+  // await Future 你最初希望示例代码中仅在所有代码末尾执行 methodD()
+  Future((){               
+    print('C running Future from $from');
+  }).then((_){
+    print('C end of Future from $from');
+  });
+
+  print('C end from $from');
+}
+
+methodD(){
+  print('D');
+}
+```
+
+* 先同步再异步
+
+##### await for\listen
+
+```dart
+
+```
+

@@ -104,3 +104,14 @@ flutter run --trace-startup --profile
 * relayoutSubtreeRoot=up8，这意味着当它RenderParagraph被标及为”dirty”时，它的八个祖先也必须被标记为”dirty”
 ```
 
+* 指定入口程序
+
+```dart
+
+//运行开发环境应用程序
+flutter run -t lib/main_dev.dart 
+
+//运行生产环境应用程序
+flutter run -t lib/main.dart
+```
+

@@ -18,7 +18,7 @@
 
    ListView通过外部Controller获取滚动状态、StatelessWidget、嵌套滚动时需使用CustomScrollView
 
-   *可以一次全部创建，也可以需要时才创建子widget?* **例子**
+   *可以一次全部创建ListView，也可以需要时才创建子widget ListView.Builder* 
 
 4. 自定义widget
 
@@ -74,7 +74,7 @@
 
 15.  编译模式
 
-    断言只在Debug模式下生效 Debug模式支持JIT，DartVm提供运行时变量可以获取当前的编译模式*？？*
+    断言只在Debug模式下生效 Debug模式支持JIT，DartVm提供运行时变量可以获取当前的编译模式kReleaseMode
 
 16.  自动化测试 ？
 
