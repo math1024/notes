@@ -44,6 +44,7 @@
 
 * when代替java中的switch
 * break continue 后可以添加标签直接跳出for
+* for(i in index 1..10000)
 
 #### 集合
 
