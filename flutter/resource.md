@@ -21,4 +21,5 @@
 * [fl_chart](https://pub.dev/packages/fl_chart)
 * [DropDownMenu Single\multi](https://github.com/icemanbsi/searchable_dropdown)
 * [loading more](https://pub.dev/packages/loading_more_list)
+* [smart select](https://github.com/davigmacode/flutter_smart_select)
 

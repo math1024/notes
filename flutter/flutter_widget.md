@@ -581,6 +581,12 @@ void main() {
 }
 ```
 
+##### PreferredSizeWidget
+
+```dart
+
+```
+
 
 
 #### 键盘收起
