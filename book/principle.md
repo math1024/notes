@@ -93,3 +93,18 @@
 * The pursuit of dreams is what gives life its ﬂavor. 
 * My point is that people who create great things aren’t idle dreamers: They are totally grounded in reality. Being hyperrealistic will help you choose your dreams wisely and then achieve them.
 
+##### 无论你向谁提问，对方一般都会提供“答案”，所以要仔细考虑要向谁提问
+
+* I regularly see people ask totally uninformed or nonbelievable people questions and get answers that they believe. This is often worse than having no answers at all.
+
+  我经常见到有人向完全不了解情况或缺乏可信度的人提问，并相信对方的回答。与其这样，还不如不提问。
+
+* Don’t make that mistake. You need to think through who the right people are. If you’re in doubt about someone’s believability, ﬁnd out.
+
+  不要犯这样的错误。你需要仔细考虑向哪些人提问。如果你怀疑某人的可信度，要查明。
+
+* The same is true for you: If someone asks you a question, think ﬁrst whether you’re the right person to answer it. If you’re not believable, you probably shouldn’t have an opinion about what they’re asking, let alone share it.
+
+  对你自己也是如此：如果有人问你一个问题，你要首先想想你自己是否合适回答这个问题。如果你觉得自己的可信度不够，或许就不应该对此存在意见，更不要说是将观点分享出去。
+
+* Be sure to direct your comments or questions to the believable Responsible Party or Parties for the issues you want to discuss. Feel free to include others if you think that their input is relevant, while recognizing that the decision will ultimately rest with whoever is responsible for it.
