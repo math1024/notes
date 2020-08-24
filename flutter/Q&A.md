@@ -229,6 +229,9 @@ Scaffold(
 * hero 共享动画
 * lerp 插值
 
+* PositionedTransition
+* DecoratedBoxTransition
+
 #### widget间共享数据
 
 * InheritedWidget 要和 StatefulWidget 中的 State 配套使用，数据由父控件到子控件
