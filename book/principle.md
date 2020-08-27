@@ -108,3 +108,7 @@
   对你自己也是如此：如果有人问你一个问题，你要首先想想你自己是否合适回答这个问题。如果你觉得自己的可信度不够，或许就不应该对此存在意见，更不要说是将观点分享出去。
 
 * Be sure to direct your comments or questions to the believable Responsible Party or Parties for the issues you want to discuss. Feel free to include others if you think that their input is relevant, while recognizing that the decision will ultimately rest with whoever is responsible for it.
+
+##### 看似善意而不够准确对人是有害的， 对其他人和机构通常也是如此。
+
+* What might seem kind but isn’t accurate is harmful to the person and often to others in the organization as well
