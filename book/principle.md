@@ -112,3 +112,9 @@
 ##### 看似善意而不够准确对人是有害的， 对其他人和机构通常也是如此。
 
 * What might seem kind but isn’t accurate is harmful to the person and often to others in the organization as well
+
+#####  准确评价人，不做“好好先生”
+
+* 没人说实事求是很容易。有时候，尤其是对那些还不习惯这样做的新员工， 诚实评价会感觉像是人身攻击。要从更高的层面去看，着眼全局，并建议被评价者也这样做
+
+* Nobody ever said radical honesty was easy. Sometimes, especially with new employees who have not yet gotten used to it, an honest assessment feels like an attack. Rise to a higher level and keep your eye on the bigger picture and counsel the person you are evaluating to do the same.
