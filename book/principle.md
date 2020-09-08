@@ -118,3 +118,14 @@
 * 没人说实事求是很容易。有时候，尤其是对那些还不习惯这样做的新员工， 诚实评价会感觉像是人身攻击。要从更高的层面去看，着眼全局，并建议被评价者也这样做
 
 * Nobody ever said radical honesty was easy. Sometimes, especially with new employees who have not yet gotten used to it, an honest assessment feels like an attack. Rise to a higher level and keep your eye on the bigger picture and counsel the person you are evaluating to do the same.
+
+##### 在抛开等级的情况下就评估达成共识
+
+* 在多数机构中，评估只有一个方向，即管理者评估被管理者。被管理者通常都不认同评估，尤其当结果比其自我评估差的时候， 因为多数人都把自己想得比实际情况更好。被管理者对管理者也会有看法，但在多数公司里他们都不敢直说，所以会产生误解和怨愤。这种不当行为损害了公司的效率以及人际关系。以高质量方式达成共识，就可避免这种情况。你的下属要相信你不是他们的敌人- 你只是想寻求真相、想帮助他们，因此不会让他们自我欺骗、延续自己的谎言，或听之任之。这必须以开诚布公、透明的方式进行，因为如果某人觉得自己没有被公正地对待，这个过程就失去了它的效用。作为平等的伙伴关系，是否寻求真相取决于你们双方。如果各方都是平等的参与者，就不会有人觉得被逼得走投无路。
+* In most organizations, evaluations run in only one direction, with the manager assessing the managee. The managee typically disagrees with the assessment, especially if it is worse than his or her self-assessment, because most people believe themselves to be better than they really are. Managees also have opinions about managers that they wouldn’t dare bring up in most companies, so misunderstandings and resentments fester. This perverse behavior undermines the effectiveness of the environment and the relationships between people. It can be avoided by getting in sync in a high-quality way. Your reports have to believe that you’re not their enemy—that your sole goal is to move toward the truth; that you are trying to help them and so will not enable their self-deception, perpetuate a lie, or let them off the hook. This has to be done in an honest and transparent way, because if someone believes they are being pigeonholed unfairly the process won’t work. As equal partners, it is up to both of you to get to the truth. When each party is an equal participant, no one can feel cornered.
+
+* 从长期看，达成共识能提高效率从而节约时间，但很重要的一点是，你需要将它做好。由于时间所限，你需要排定优先顺序，哪些事、需要与谁达成共识。排在最前面的，应当是与最可信、最相关人士讨论最重要的问题。
+
+  
+
+  In the long run, it saves time by increasing eﬃciency, but it’s important that you do it well. You will need to prioritize what you are going to get in sync about and who you are going to get in sync with because of time constraints. Your highest priority should be the most important issues with the most believable and most relevant parties.
