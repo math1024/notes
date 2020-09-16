@@ -38,3 +38,8 @@
 *  bog 泥潭
 * get bogged down 陷入困境、陷入停滞状态
   * you must not get bogged down in detail 千万别拘泥于细节
+
+##### Sep 11 
+
+* audacious
+

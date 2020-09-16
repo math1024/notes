@@ -129,3 +129,21 @@
   
 
   In the long run, it saves time by increasing eﬃciency, but it’s important that you do it well. You will need to prioritize what you are going to get in sync about and who you are going to get in sync with because of time constraints. Your highest priority should be the most important issues with the most believable and most relevant parties.
+
+* 大胆些！总有一条最好的道路，你要做的是找到它，鼓起勇气沿着它前进。你所认为的可以实现只是根据目前你已知的做出判断。一旦开始追求目标，你会学到很多，尤其是在和他人探讨的情况下，你从未预想过的道路将会呈现。
+
+  当然，也有一些不可能或近乎不可能的事。例如，如果个子矮但要在一个职业篮球队打中锋，或者 70岁时在 4分钟以内跑 1英里（约合 1. 6千米）。
+
+* Be audacious. There is always a best possible path. Your job is to ﬁnd it and have the courage to follow it. What you think is attainable is just a function of what you know at the moment. Once you start your pursuit you will learn a lot, especially if you triangulate with others; paths you never saw before will emerge.
+
+  Of course there are some impossibilities or near- impossibilities, such as playing center on a professional basketball team if you’re short, or running a four-minute mile at age seventy.
+
+##### 好的文化会让问题和分歧浮出水面，并会妥善解决它们
+
+* 这样能够持续促进他们的进化。
+
+* 桥水的做法是创意择优，通过极度求真和极度透明，努力实现有意义的工作，建立有意义的人际关系。我所说的有意义的工作，是指让人们有激情去投入的事业；有意义的人际关系，是指相互之间能够真心关爱的关系（就像一个大家庭）。我认为这两个方面是相辅相成的，而做到极度求真和极度透明，则会使工作和人际关系都能有更好的发展。
+
+* Doing that sustains their evolution.
+
+* In the case of Bridgewater, we do that by having an idea meritocracy that strives for meaningful work and meaningful relationships through radical truth and radical transparency. By meaningful work, I mean work that people are excited to get their heads into, and by meaningful relationships I mean those in which there is genuine caring for each other (like an extended family). I find that these reinforce each other and that being radically truthful and radically transparent with each other makes both the work and the relationships go better.

@@ -117,3 +117,10 @@ $ du -sh big_file
 du -sh
 ```
 
+10. find 排除目录
+
+```shell
+# 注意 ！前后的空格 -path
+find ./ ! -path "./unifyres/*" ! -path "./internalcar/*" -name *.xml | xargs grep -nwr "CommonRoundButton" 
+```
+
