@@ -141,9 +141,11 @@
 ##### 好的文化会让问题和分歧浮出水面，并会妥善解决它们
 
 * 这样能够持续促进他们的进化。
-
 * 桥水的做法是创意择优，通过极度求真和极度透明，努力实现有意义的工作，建立有意义的人际关系。我所说的有意义的工作，是指让人们有激情去投入的事业；有意义的人际关系，是指相互之间能够真心关爱的关系（就像一个大家庭）。我认为这两个方面是相辅相成的，而做到极度求真和极度透明，则会使工作和人际关系都能有更好的发展。
-
 * Doing that sustains their evolution.
-
 * In the case of Bridgewater, we do that by having an idea meritocracy that strives for meaningful work and meaningful relationships through radical truth and radical transparency. By meaningful work, I mean work that people are excited to get their heads into, and by meaningful relationships I mean those in which there is genuine caring for each other (like an extended family). I find that these reinforce each other and that being radically truthful and radically transparent with each other makes both the work and the relationships go better.
+
+##### 谨记，你是在寻找最好的答案，而不是你自己能得出的最好答案 
+
+* 最好的答案不一定是你想出来的，你可以在其他人那里找。如果你真的客观看待事物，你就必须承认，你总是拥有最好答案的可能性是很小的，而且就算你有最好的答案，在未经其他人测试之前，你也不能如此确信。所以，弄清什么是你所不知道的非常重要。自问一下：我是不是只从自己的视角看待这个问题？如果真是这样，你就应该知道，这种做法有极大的缺陷。
+* The answer doesn’t have to be in your head; you can look outside yourself. If you’re truly looking at things objectively, you must recognize that the probability of you always having the best answer is small and that, even if you have it, you can’t be confident that you do before others test you. So it is invaluable to know what you don’t know. Ask yourself: Am I seeing this just through my own eyes? If so, then you should know that you’re terribly handicapped.
