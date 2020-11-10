@@ -115,6 +115,7 @@
 * 动态规划、
 * 字符串匹配算法
   * Brute Force $O(n*m)$ Rabin-Karp $O(n)$ 有可能退化成$O(n*m)$ 
+  * BM（Boyer-Moore）
   * KMP
 * Trie 树
 
