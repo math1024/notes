@@ -47,3 +47,7 @@ themes/assets/sass/_variables.scss#L5-L8
   url = "/about/"
 ```
 
+#### Caddy
+
+* 安装 yum install caddy -y
+* 下载配置文件 curl -o /etc/caddy/conf.d/Caddyfile.conf --create-dirs https://dl.halo.run/config/Caddyfile
