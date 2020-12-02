@@ -32,6 +32,8 @@
    
 8. ipcs\ipcrm
 
+9. 
+
 #### soft command
 
 1. 安装py3， pip3
@@ -122,5 +124,12 @@ du -sh
 ```shell
 # 注意 ！前后的空格 -path
 find ./ ! -path "./unifyres/*" ! -path "./internalcar/*" -name *.xml | xargs grep -nwr "CommonRoundButton" 
+```
+
+11. 查看系统信息
+
+```shell
+cat /proc/version
+uname -a
 ```
 
