@@ -133,3 +133,22 @@ cat /proc/version
 uname -a
 ```
 
+##### 添加用户
+
+```shell
+useradd
+userdel 
+
+-g<群组> 　指定用户所属的群组。
+-G<群组> 　指定用户所属的附加群组。
+-m 　自动建立用户的登入目录。
+-M 　不要自动建立用户的登入目录。
+```
+
+#### 查看用户和组
+
+```shell
+cat /etc/passwd
+cat /etc/group
+```
+
