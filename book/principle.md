@@ -6,7 +6,22 @@
 
 ##### 5.5 综合分析现实、理解如何行动的最好工具是逻辑、理性和常识
 
+##### 帮助你从生活中得到你想要的东西的原则
 
+* 你生活的质量主要取决于你追求目标时所做决定的质量。以下是一些我认为有助于实现目标的原则：
+  1. 拥有明确的目标；
+  2. 发现并不容忍那些阻碍你实现目标的问题；
+  3. 准确诊断问题，并找出它们的根源；
+  4. 设计出能让你应对这些问题的方案；
+  5. 做必要的事情来实现这些方案；
+  6. 做这些事时，要参考能对你起到补充作用的（想到你所想不到的）人的建议
+* The quality of your life primarily depends on the quality of your decisions in pursuit of your goals. Here are some principles I have found helpful in achieving my goals. 
+  1.  Have clear goals.
+  2. Identify and don’t tolerate problems that stand in the way of you achieving those goals.
+  3. Accurately diagnose problems to get at their root causes.
+  4. Design plans that will get you around them.
+  5. Do what’s necessary to push these designs through to results.
+  6. Do these things with the input of people who might see what you might be missing.
 
 #### 组织
 
@@ -149,3 +164,13 @@
 
 * 最好的答案不一定是你想出来的，你可以在其他人那里找。如果你真的客观看待事物，你就必须承认，你总是拥有最好答案的可能性是很小的，而且就算你有最好的答案，在未经其他人测试之前，你也不能如此确信。所以，弄清什么是你所不知道的非常重要。自问一下：我是不是只从自己的视角看待这个问题？如果真是这样，你就应该知道，这种做法有极大的缺陷。
 * The answer doesn’t have to be in your head; you can look outside yourself. If you’re truly looking at things objectively, you must recognize that the probability of you always having the best answer is small and that, even if you have it, you can’t be confident that you do before others test you. So it is invaluable to know what you don’t know. Ask yourself: Am I seeing this just through my own eyes? If so, then you should know that you’re terribly handicapped.
+
+#####  不要对所有人等同对待，要合理对待，有所区别
+
+* 人们常说，对人区别对待既不公平也不合理。但是，合理对待人就必须有所区别，这是因为人及其境况都不一样。如果你是一个裁缝，你不会为顾客剪裁大小全都相同的衣服
+
+  然而，按照同一套规则来对待员工至关重要。这就是我努力把桥水的原则不断充实完善的原因，要确保原则足够有深度，将各种差别涵盖其中。例如，若某个员工为桥水效力多年，在他的待遇上将有所体现。类似的，尽管我认为不诚实是不可容忍的，但我不会对所有不诚实的行为、不诚实的人都同样对待。
+
+* It’s often said that it is neither fair nor appropriate to treat people diﬀerently. But in order to treat people appropriately you must treat them diﬀerently. That is because people and their circumstances are diﬀerent. If you were a tailor you wouldn’t give all of your customers the same size suit.
+
+* It is, however, important to treat people according to the same set of rules. That’s why I’ve tried to ﬂesh out Bridgewater’s principles in enough depth that diﬀerences are accounted for. For example, if someone has worked at Bridgewater for many years, that factors into how they are treated. Likewise, while I ﬁnd all dishonesty intolerable, I don’t treat all acts of dishonesty and all people who are dishonest the same.
