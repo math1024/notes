@@ -174,3 +174,9 @@
 * It’s often said that it is neither fair nor appropriate to treat people diﬀerently. But in order to treat people appropriately you must treat them diﬀerently. That is because people and their circumstances are diﬀerent. If you were a tailor you wouldn’t give all of your customers the same size suit.
 
 * It is, however, important to treat people according to the same set of rules. That’s why I’ve tried to ﬂesh out Bridgewater’s principles in enough depth that diﬀerences are accounted for. For example, if someone has worked at Bridgewater for many years, that factors into how they are treated. Likewise, while I ﬁnd all dishonesty intolerable, I don’t treat all acts of dishonesty and all people who are dishonest the same.
+
+#####  每日原则：如果你拥有灵活性并自我归责，那么几乎没有什么能阻止你成功
+
+* 灵活性能让你接受现实（或者有见识的人）给你的教益。自我归责很重要，因为如果你真的相信未能实现某个目标是你自己的失败，那你就会把这一失败视为一个提示，它说明相对于你的任务而言，你的创造性、灵活性和坚定性还不够。 这样会大大提高你寻找方法的积极性。
+
+* Flexibility is what allows you to accept what reality (or knowledgeable people) teaches you; self-accountability is essential because if you really believe that failing to achieve a goal is your personal failure, you will see your failing to achieve it as indicative that you haven’t been creative or ﬂexible or determined enough to do what it takes. And you will be that much more motivated to ﬁnd the way.
