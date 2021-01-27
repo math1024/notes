@@ -29,7 +29,7 @@
    r ：只显示正在运行的进程。 
    u ：以用户为主的格式来显示程序状况。 
    x ：显示所有程序，不以终端机来区分。
-   
+
 8. ipcs\ipcrm
 
 9. 
@@ -116,7 +116,8 @@ $ du -sh big_file
 9. du 查看当前目录文件大小
 
 ```shell
-du -sh
+du -sh # 只显示大小
+du -h  #   
 ```
 
 10. find 排除目录
@@ -132,6 +133,19 @@ find ./ ! -path "./unifyres/*" ! -path "./internalcar/*" -name *.xml | xargs gre
 cat /proc/version
 uname -a
 ```
+
+12. ls
+
+```shell
+# 只显示目录  / 目录； @ 链接； * 可执行文件
+ls -F | grep "/$" 
+
+# 只显示文件或目录
+ls -al | grep "^-"
+ls -al | grep "^d"
+```
+
+
 
 ##### 添加用户
 
