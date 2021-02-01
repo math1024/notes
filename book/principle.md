@@ -178,5 +178,30 @@
 #####  每日原则：如果你拥有灵活性并自我归责，那么几乎没有什么能阻止你成功
 
 * 灵活性能让你接受现实（或者有见识的人）给你的教益。自我归责很重要，因为如果你真的相信未能实现某个目标是你自己的失败，那你就会把这一失败视为一个提示，它说明相对于你的任务而言，你的创造性、灵活性和坚定性还不够。 这样会大大提高你寻找方法的积极性。
-
 * Flexibility is what allows you to accept what reality (or knowledgeable people) teaches you; self-accountability is essential because if you really believe that failing to achieve a goal is your personal failure, you will see your failing to achieve it as indicative that you haven’t been creative or ﬂexible or determined enough to do what it takes. And you will be that much more motivated to ﬁnd the way.
+
+* 以开放的心态，与虽不赞成你的观点但具有可信度的人对话，是接受教育、提升决策正确性的最迅捷的方法。
+
+  Having open-minded conversations with believable people who disagree with you is the quickest way to get an education and to increase your probability of being right.
+
+##### 每日原则：不要固守你对事物“应该”是什么样的看法，这将使你无法了解真实的情况
+
+* 很重要的是，不要让偏见阻碍我们保持客观。想要取得好结果，我们需要理性而不是情绪化。当我看到一些我（或人类）认为是错误的自然事物时，我会先假定我是错的，然后努力弄明白，为什么说自然如此运行是合理的。
+
+  这让我认识了到很多东西，改变了我对以下问题的看法：（1）什么是好什么是坏；（2）我的人生目标是什么；（3）当面对最重要的抉择时我该怎么做。
+
+* It’s important not to let our biases stand in the way of our objectivity.  To get good results, we need to be analytical rather than emotional.Whenever I observe something in nature that I (or mankind) think is wrong, I assume that I’m wrong and try to figure out why what nature is doing makes sense.  
+
+  That has taught me a lot.  It has changed my thinking about 1) what’s good and what’s bad, 2) what my purpose in life is, and 3) what I should do when faced with my most important choices. 
+
+  
+
+* 为了说明原因，我举一个简单的例子。多年前我去非洲时，看到一群鬣狗扑倒了一只幼小的角马。这让我觉得反胃。我对那只角马感到同情，并且认为我看到的景象很糟糕。但问题是，这件事是真的很糟糕，还是因为我有偏见所以认为它很糟糕，而事实上它好极了？这让我陷入思索。假如我看到的事情没有发生，世界会变好还是变差？这个视角促使我考虑这件事后续、再后续的影响，于是我发现那样的话世界将会变差。
+
+* To help explain why, I will give you a simple example. When I went to Africa a number of years ago, I saw a pack of hyenas take down a young wildebeest. My reaction was visceral. I felt empathy for the wildebeest and thought that what I had witnessed was horrible. But was that because it was horrible or was it because I am biased to believe it’s horrible when it is actually wonderful? That got me thinking. Would the world be a better or worse place if what I’d seen hadn’t occurred? That perspective drove me to consider the second- and third-order consequences so that I could see that the world would be worse. 
+
+  
+
+* 我现在认识到，自然会走向整体的最优化，而不是个体的最优化，但多数人只是根据事物对自身的影响判断好坏。我看到的情况是正在运行的自然进程，它能有效促进整个世界的改善，比人类发明的任何程序都有效得多。多数人把对自己或者自己关心的人不利的事情叫作坏事情，而忽视了更大的好。群体也有这种倾向：一种宗教的信仰者会认为自己的信仰好，其他人的信仰不好，导致两方信徒相互残杀，而且都坚信自己在做对的事情。通常，人们彼此冲突的信念或利益会妨碍他们从对方的视角看事情。这不好，也不理性。尽管我能理解，人们喜欢对自己有利的东西，不喜欢对自己有损的东西，但只根据事物对个人的影响就将其判定为绝对的好或绝对的坏，这是不合理的。这么做是在假定个人的愿望比整体的好更重要。在我看来，自然似乎把“好”定义为对整体好的东西，并通过最优化进程实现这种“好”，这是更好的做法。
+
+* I now realize that nature optimizes for the whole, not for the individual, but most people judge good and bad based only on how it affects them. What I had seen was the process of nature at work, which is much more effective at furthering the improvement of the whole than any process man has ever invented.Most people call something bad if it is bad for them or bad for those they empathize with, ignoring the greater good. This tendency extends to groups: One religion will consider its beliefs good and another religion’s beliefs bad to such an extent that their members might kill each other in the mutual conviction that each is doing what’s right. Typically, people’s conflicting beliefs or conflicting interests make them unable to see things through another’s eyes. That’s not good and it doesn’t make sense. While I could understand people liking something that helps them and disliking things that hurt them, it doesn’t make sense to call something good or bad in an absolute sense based only on how it affects individuals. To do so would presume that what the individual wants is more important than the good of the whole. To me, nature seems to define good as what’s good for the whole and optimizes for it, which is preferable.
