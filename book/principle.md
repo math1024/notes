@@ -205,3 +205,8 @@
 * 我现在认识到，自然会走向整体的最优化，而不是个体的最优化，但多数人只是根据事物对自身的影响判断好坏。我看到的情况是正在运行的自然进程，它能有效促进整个世界的改善，比人类发明的任何程序都有效得多。多数人把对自己或者自己关心的人不利的事情叫作坏事情，而忽视了更大的好。群体也有这种倾向：一种宗教的信仰者会认为自己的信仰好，其他人的信仰不好，导致两方信徒相互残杀，而且都坚信自己在做对的事情。通常，人们彼此冲突的信念或利益会妨碍他们从对方的视角看事情。这不好，也不理性。尽管我能理解，人们喜欢对自己有利的东西，不喜欢对自己有损的东西，但只根据事物对个人的影响就将其判定为绝对的好或绝对的坏，这是不合理的。这么做是在假定个人的愿望比整体的好更重要。在我看来，自然似乎把“好”定义为对整体好的东西，并通过最优化进程实现这种“好”，这是更好的做法。
 
 * I now realize that nature optimizes for the whole, not for the individual, but most people judge good and bad based only on how it affects them. What I had seen was the process of nature at work, which is much more effective at furthering the improvement of the whole than any process man has ever invented.Most people call something bad if it is bad for them or bad for those they empathize with, ignoring the greater good. This tendency extends to groups: One religion will consider its beliefs good and another religion’s beliefs bad to such an extent that their members might kill each other in the mutual conviction that each is doing what’s right. Typically, people’s conflicting beliefs or conflicting interests make them unable to see things through another’s eyes. That’s not good and it doesn’t make sense. While I could understand people liking something that helps them and disliking things that hurt them, it doesn’t make sense to call something good or bad in an absolute sense based only on how it affects individuals. To do so would presume that what the individual wants is more important than the good of the whole. To me, nature seems to define good as what’s good for the whole and optimizes for it, which is preferable.
+
+#####每日原则：坚定地从头至尾执行方案
+
+#####每日原则：谨记实现你的目标通常有很多途径
+
