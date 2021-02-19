@@ -210,3 +210,4 @@
 
 #####每日原则：谨记实现你的目标通常有很多途径
 
+* 你只需要找出一条有效途径。You only need to find one that works.
