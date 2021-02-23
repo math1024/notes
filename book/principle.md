@@ -211,3 +211,18 @@
 #####每日原则：谨记实现你的目标通常有很多途径
 
 * 你只需要找出一条有效途径。You only need to find one that works.
+
+##### 每日原则：知道适时终结辩论，就该做什么达成共识
+
+* 我见过人们在大的方面有共识，却浪费太多时间于细节的辩论。把大事抓好远比把小事做到极致更为重要。但如果人们对辩论的重要性有分歧，或许就值得辩论一番了。否则，就相当于让某个人（一般是老板）拥有了事实上的否决权。
+* I have seen people who agree on the major issues waste hours arguing over details. It’s more important to do big things well than to do the small things perfectly. But when people disagree on the importance of debating something, it probably should be debated. Operating otherwise would essentially give someone (typically the boss) a de facto veto
+* facto 英[ˈfæktəʊ]美[ˈfæktoʊ] 实际上、事实上行为 
+* veto	英[ˈviːtəʊ]美[ˈviːtoʊ]
+  n.	否决权; 拒绝认可; 禁止;
+  v.	行使否决权; 拒绝认可; 禁止; 拒不接受; 反对; 否定;
+
+#### 世界秩序的改变：维持任何系统（即任何秩序）的前提是， 它必须对所管治的绝大多数人来说是长期有利
+
+* 历史表明，这是维持一个大国最好的方法，哪怕它的人民是征服而来的。例如，发展最快和最持久的大国会与被征服的人民分享胜利所带来的好处，而不是去压制他们。相反，阻止人们得到他们最珍视、会为其奋不顾身的东西，这样的国家是最快崩塌的。对于领导者来说，这是一条很重要的原则。比方说，在美国，如果被多数人选出来的总统试图利用他的胜利从失败者手中夺走他们最珍视的东西，这是不明智的。
+
+* History has shown that this is the best way to sustain an empire, even one of conquered people. For example, empires that grew the most and lasted the longest did it by sharing the spoils of their successes with those were conquered rather than subjugating them. Conversely, those that prevented those from having what the people held most dear and would fight to the death for, were the quickest to fall. This is an important principle for those who lead to remember. For example, in the United States it would not be wise for the president who was elected by one large segment of the population to use that victory to try to take away from the losers those things that they hold most dear.
